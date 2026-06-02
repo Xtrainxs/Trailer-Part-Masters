@@ -1,0 +1,12 @@
+node_modules
+.next
+out
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.DS_Store
+.vercel
+
+# Legacy TPM site kept locally as a backup; do not publish
+/Trailer Part Masters/
