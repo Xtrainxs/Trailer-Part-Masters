@@ -56,7 +56,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 <img
                   src="/logo.png"
                   alt="Trailer Part Masters logo"
-                  className="max-h-24 sm:max-h-28 w-auto object-contain rounded-md shadow-lg"
+                  className="max-h-24 sm:max-h-28 w-auto object-contain"
                 />
               </a>
               <div className="flex flex-col gap-3 sm:items-end">

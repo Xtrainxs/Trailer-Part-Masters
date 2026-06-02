@@ -18,11 +18,13 @@ export default function RequestFormPage({ searchParams }: PageProps) {
     <div className="max-w-2xl mx-auto px-6 py-14">
       <header className="text-center mb-10">
         <div className="mb-6 flex items-center justify-center">
-          <img
-            src="/logo.png"
-            alt="Trailer Part Masters logo"
-            className="max-h-24 sm:max-h-28 w-auto object-contain"
-          />
+          <span className="inline-flex bg-[#05203C] rounded-xl px-6 py-4 shadow-sm">
+            <img
+              src="/logo.png"
+              alt="Trailer Part Masters logo"
+              className="max-h-20 sm:max-h-24 w-auto object-contain"
+            />
+          </span>
         </div>
         <p className="text-xs sm:text-sm font-semibold tracking-[0.25em] uppercase text-sky-700 mb-3">
           Request a Quote
