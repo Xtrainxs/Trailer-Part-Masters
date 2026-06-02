@@ -24,6 +24,7 @@ separate, independent projects/repos that happen to share a layout and component
 
 ## Brand details
 - **Name:** Trailer Part Masters (Alberta Inc.)
+- **Tagline:** Master Every Part of the Haul
 - **Phone:** +1 403-875-5074
 - **Email:** trailerpartmasters@shaw.ca
 - **Address:** Taralake Manor NE, Calgary, Alberta, Canada T3J 0N1

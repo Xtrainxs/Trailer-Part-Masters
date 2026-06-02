@@ -33,7 +33,10 @@ export default function Home() {
               Built for the
               <span className="text-lime"> long haul.</span>
             </h1>
-            <p className="mt-6 max-w-xl text-lg text-slate-300 leading-relaxed">
+            <p className="mt-5 font-display uppercase tracking-[0.15em] text-lime text-lg sm:text-xl">
+              Master Every Part of the Haul
+            </p>
+            <p className="mt-5 max-w-xl text-lg text-slate-300 leading-relaxed">
               Suspension, brakes, lights, jacks, couplers and hardware — sourced
               directly from the factories that supply North America&apos;s
               resellers, and passed to you without the middleman markup.

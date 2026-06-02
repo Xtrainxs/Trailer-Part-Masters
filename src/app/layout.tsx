@@ -5,7 +5,7 @@ import Breadcrumbs from '@/components/breadcrumbs';
 export const metadata = {
   metadataBase: new URL('https://trailer-part-masters.vercel.app'),
   title: {
-    default: 'Trailer Part Masters — Trailer Components Direct from Manufacturer',
+    default: 'Trailer Part Masters — Master Every Part of the Haul',
     template: '%s | Trailer Part Masters',
   },
   description:
@@ -27,7 +27,7 @@ export const metadata = {
     'Alberta trailer parts',
   ],
   openGraph: {
-    title: 'Trailer Part Masters',
+    title: 'Trailer Part Masters — Master Every Part of the Haul',
     description:
       'Trailer components sourced directly from trusted global manufacturers. 25+ years of importing expertise.',
     url: 'https://trailer-part-masters.vercel.app',
@@ -38,7 +38,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Trailer Part Masters',
+    title: 'Trailer Part Masters — Master Every Part of the Haul',
     description: 'Trailer components direct from global manufacturers.',
     images: ['/logo.png'],
   },
@@ -65,7 +65,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <div className="bg-ink text-slate-300 text-xs sm:text-sm">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-9 flex items-center justify-between">
             <span className="hidden sm:inline tracking-wide">
-              Direct from manufacturer · Serving North America since 2001
+              <span className="font-display uppercase text-lime">Master Every Part of the Haul</span>
+              <span className="text-slate-500"> · Serving North America since 2001</span>
             </span>
             <div className="flex items-center gap-4 sm:gap-6">
               <a href="tel:+14038755074" className="hover:text-lime transition whitespace-nowrap">
@@ -141,8 +142,11 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 <img
                   src="/logo.png"
                   alt="Trailer Part Masters"
-                  className="h-16 w-auto object-contain mb-4"
+                  className="h-16 w-auto object-contain mb-3"
                 />
+                <p className="font-display uppercase text-lime tracking-wide text-sm mb-4">
+                  Master Every Part of the Haul
+                </p>
                 <p className="text-sm leading-relaxed text-slate-400">
                   Trailer components sourced directly from trusted global
                   manufacturers. 25+ years of importing expertise serving North
