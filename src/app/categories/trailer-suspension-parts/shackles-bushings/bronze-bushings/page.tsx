@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export const metadata = { title: 'Bronze Bushings' };
@@ -6,9 +6,9 @@ export const metadata = { title: 'Bronze Bushings' };
 export default function BronzeBushingsPage() {
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">
-      <h1 className="text-2xl font-bold mb-4 text-[#05203C]">Bronze Bushings</h1>
-      <p className="mb-8 text-[#05203C]">Bronze bushings are known for their durability and resistance to wear, making them suitable for heavy-duty and commercial trailers.</p>
-      <h2 className="text-xl font-semibold mb-4 text-[#05203C]">Bronze Bushings Gallery</h2>
+      <h1 className="text-2xl font-bold mb-4 text-ink">Bronze Bushings</h1>
+      <p className="mb-8 text-ink">Bronze bushings are known for their durability and resistance to wear, making them suitable for heavy-duty and commercial trailers.</p>
+      <h2 className="text-xl font-semibold mb-4 text-ink">Bronze Bushings Gallery</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mb-12">
         {[1,2,3,4].map((num) => (
           <div key={num} className="flex flex-col items-center bg-slate-100 rounded-lg shadow p-4 border border-slate-200">
@@ -22,7 +22,7 @@ export default function BronzeBushingsPage() {
           </div>
         ))}
       </div>
-      <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Available Bronze Bushings</h2>
+      <h2 className="text-xl font-semibold mb-2 mt-8 text-ink">Available Bronze Bushings</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white border border-slate-200 rounded-lg mb-8">
           <thead>
@@ -35,19 +35,19 @@ export default function BronzeBushingsPage() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-BB-2-1</td>
+              <td className="py-2 px-4 border-b">TPM-BB-2-1</td>
               <td className="py-2 px-4 border-b">Bronze Bushing</td>
               <td className="py-2 px-4 border-b">2</td>
               <td className="py-2 px-4 border-b">1</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-BB-2.5-1</td>
+              <td className="py-2 px-4 border-b">TPM-BB-2.5-1</td>
               <td className="py-2 px-4 border-b">Bronze Bushing</td>
               <td className="py-2 px-4 border-b">2.5</td>
               <td className="py-2 px-4 border-b">1</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-BB-3-1</td>
+              <td className="py-2 px-4 border-b">TPM-BB-3-1</td>
               <td className="py-2 px-4 border-b">Bronze Bushing</td>
               <td className="py-2 px-4 border-b">3</td>
               <td className="py-2 px-4 border-b">1</td>

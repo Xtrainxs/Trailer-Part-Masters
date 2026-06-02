@@ -1,4 +1,4 @@
-import { readdir } from "fs/promises";
+﻿import { readdir } from "fs/promises";
 import path from "path";
 import RangeDisclaimer from '@/components/range-disclaimer';
 
@@ -25,9 +25,9 @@ export default async function TrailerHardwarePage() {
 
   return (
     <main className="max-w-6xl mx-auto py-12 px-6">
-      <h1 className="text-2xl font-bold mb-4 text-[#05203C]">Trailer Hardware</h1>
+      <h1 className="text-2xl font-bold mb-4 text-ink">Trailer Hardware</h1>
       <p className="text-lg text-slate-700 mb-4">
-        We carry all kinds of trailer hardware and accessories — pictures below are for
+        We carry all kinds of trailer hardware and accessories â€” pictures below are for
         reference only and represent a small sample of what is available.
       </p>
       <RangeDisclaimer

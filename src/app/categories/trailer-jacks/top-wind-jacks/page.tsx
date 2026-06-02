@@ -1,4 +1,4 @@
-import Link from 'next/link';
+﻿import Link from 'next/link';
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export const metadata = { title: 'Top-Wind Jacks' };
@@ -25,7 +25,7 @@ export default function TopWindJacks() {
           </div>
         ))}
       </div>
-      <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Available Top-Wind Jacks</h2>
+      <h2 className="text-xl font-semibold mb-2 mt-8 text-ink">Available Top-Wind Jacks</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white border border-slate-200 rounded-lg mb-8">
           <thead>
@@ -39,21 +39,21 @@ export default function TopWindJacks() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-TWJ-2000</td>
+              <td className="py-2 px-4 border-b">TPM-TWJ-2000</td>
               <td className="py-2 px-4 border-b">Manual Top-Wind</td>
               <td className="py-2 px-4 border-b">2,000</td>
               <td className="py-2 px-4 border-b">10</td>
               <td className="py-2 px-4 border-b">Black Powder Coat</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-TWJ-5000</td>
+              <td className="py-2 px-4 border-b">TPM-TWJ-5000</td>
               <td className="py-2 px-4 border-b">Heavy Duty Top-Wind</td>
               <td className="py-2 px-4 border-b">5,000</td>
               <td className="py-2 px-4 border-b">12</td>
               <td className="py-2 px-4 border-b">Zinc</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-TWJ-7000</td>
+              <td className="py-2 px-4 border-b">TPM-TWJ-7000</td>
               <td className="py-2 px-4 border-b">HD Top-Wind</td>
               <td className="py-2 px-4 border-b">7,000</td>
               <td className="py-2 px-4 border-b">14</td>

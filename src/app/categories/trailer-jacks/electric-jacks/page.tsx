@@ -1,4 +1,4 @@
-import Link from 'next/link';
+﻿import Link from 'next/link';
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export const metadata = { title: 'Electric Jacks' };
@@ -25,7 +25,7 @@ export default function ElectricJacks() {
           </div>
         ))}
       </div>
-      <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Available Electric Jacks</h2>
+      <h2 className="text-xl font-semibold mb-2 mt-8 text-ink">Available Electric Jacks</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white border border-slate-200 rounded-lg mb-8">
           <thead>
@@ -39,21 +39,21 @@ export default function ElectricJacks() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-EJ-3500</td>
+              <td className="py-2 px-4 border-b">TPM-EJ-3500</td>
               <td className="py-2 px-4 border-b">Standard Electric</td>
               <td className="py-2 px-4 border-b">3,500</td>
               <td className="py-2 px-4 border-b">18</td>
               <td className="py-2 px-4 border-b">12V</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-EJ-5000</td>
+              <td className="py-2 px-4 border-b">TPM-EJ-5000</td>
               <td className="py-2 px-4 border-b">Heavy Duty Electric</td>
               <td className="py-2 px-4 border-b">5,000</td>
               <td className="py-2 px-4 border-b">20</td>
               <td className="py-2 px-4 border-b">12V</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-EJ-7000</td>
+              <td className="py-2 px-4 border-b">TPM-EJ-7000</td>
               <td className="py-2 px-4 border-b">HD Electric</td>
               <td className="py-2 px-4 border-b">7,000</td>
               <td className="py-2 px-4 border-b">22</td>

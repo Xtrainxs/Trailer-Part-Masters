@@ -1,4 +1,4 @@
-import Link from 'next/link';
+﻿import Link from 'next/link';
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export const metadata = { title: '10\\" Brake Drum Kit for 3,500 lb. Axles | 5 on 4.75\\" Bolt Pattern' };
@@ -25,7 +25,7 @@ export default function BrakeDrum10in3500_5x475() {
           </div>
         ))}
       </div>
-      <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Available Kits</h2>
+      <h2 className="text-xl font-semibold mb-2 mt-8 text-ink">Available Kits</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white border border-slate-200 rounded-lg mb-8">
           <thead>
@@ -40,7 +40,7 @@ export default function BrakeDrum10in3500_5x475() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-BDK-10IN-3500-5X475</td>
+              <td className="py-2 px-4 border-b">TPM-BDK-10IN-3500-5X475</td>
               <td className="py-2 px-4 border-b">10"</td>
               <td className="py-2 px-4 border-b">5 on 4.75"</td>
               <td className="py-2 px-4 border-b">L68149/L68111 & L44649/L44610</td>

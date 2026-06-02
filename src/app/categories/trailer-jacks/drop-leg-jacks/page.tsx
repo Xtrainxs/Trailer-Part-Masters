@@ -1,4 +1,4 @@
-import Link from 'next/link';
+﻿import Link from 'next/link';
 import RequestQuoteCTA from '@/components/request-quote-cta';
 import RangeDisclaimer from '@/components/range-disclaimer';
 
@@ -13,7 +13,7 @@ export default function DropLegJacks() {
       </p>
       <RangeDisclaimer
         intro="Our drop-leg jacks range includes:"
-        items={["7,000 lb capacity","10,000 lb capacity","12,000 lb capacity","Manual Crank","Speed Handle","2-Speed Gear","Adjustable Drop-Leg (6\"–18\")","Swivel Foot Plate","Fixed Foot Plate","Bolt-On mounting","Zinc-Plated","Black Powder Coat"]}
+        items={["7,000 lb capacity","10,000 lb capacity","12,000 lb capacity","Manual Crank","Speed Handle","2-Speed Gear","Adjustable Drop-Leg (6\"â€“18\")","Swivel Foot Plate","Fixed Foot Plate","Bolt-On mounting","Zinc-Plated","Black Powder Coat"]}
       />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 mb-8">
         {["1.png", "2.png", "3.png"].map((img, idx) => (
@@ -30,7 +30,7 @@ export default function DropLegJacks() {
           </div>
         ))}
       </div>
-      <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Available Drop-Leg Jacks</h2>
+      <h2 className="text-xl font-semibold mb-2 mt-8 text-ink">Available Drop-Leg Jacks</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white border border-slate-200 rounded-lg mb-8">
           <thead>
@@ -44,21 +44,21 @@ export default function DropLegJacks() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-DLJ-5000</td>
+              <td className="py-2 px-4 border-b">TPM-DLJ-5000</td>
               <td className="py-2 px-4 border-b">Manual Drop-Leg</td>
               <td className="py-2 px-4 border-b">5,000</td>
               <td className="py-2 px-4 border-b">12</td>
               <td className="py-2 px-4 border-b">Black Powder Coat</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-DLJ-7000</td>
+              <td className="py-2 px-4 border-b">TPM-DLJ-7000</td>
               <td className="py-2 px-4 border-b">Heavy Duty Drop-Leg</td>
               <td className="py-2 px-4 border-b">7,000</td>
               <td className="py-2 px-4 border-b">14</td>
               <td className="py-2 px-4 border-b">Zinc</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-DLJ-10000</td>
+              <td className="py-2 px-4 border-b">TPM-DLJ-10000</td>
               <td className="py-2 px-4 border-b">HD Drop-Leg</td>
               <td className="py-2 px-4 border-b">10,000</td>
               <td className="py-2 px-4 border-b">16</td>

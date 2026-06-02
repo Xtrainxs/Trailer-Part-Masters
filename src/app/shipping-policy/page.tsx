@@ -8,12 +8,11 @@ export default function ShippingPolicyPage() {
   return (
     <div className="max-w-3xl mx-auto px-6 py-16">
       <header className="mb-12 text-center">
-        <p className="text-xs sm:text-sm font-semibold tracking-[0.25em] uppercase text-sky-700 mb-4">
+        <p className="text-xs sm:text-sm font-semibold tracking-[0.25em] uppercase text-lime-dark mb-4">
           Policy
         </p>
         <h1
-          className="text-4xl sm:text-5xl font-bold text-[#05203C] tracking-tight"
-          style={{ fontFamily: "'Playfair Display', Georgia, serif" }}
+          className="font-display uppercase text-4xl sm:text-5xl font-bold text-ink tracking-tight"
         >
           Shipping Policy
         </h1>
@@ -28,7 +27,7 @@ export default function ShippingPolicyPage() {
 
       <article className="space-y-12 text-slate-800 leading-relaxed">
         <section>
-          <h2 className="text-2xl font-bold text-[#05203C] mb-3">How orders ship</h2>
+          <h2 className="text-2xl font-bold text-ink mb-3">How orders ship</h2>
           <p className="mb-4">
             Orders typically move by one of three methods, depending on size and urgency:
           </p>
@@ -53,7 +52,7 @@ export default function ShippingPolicyPage() {
         </section>
 
         <section>
-          <h2 className="text-2xl font-bold text-[#05203C] mb-3">
+          <h2 className="text-2xl font-bold text-ink mb-3">
             Typical transit times
           </h2>
           <p className="mb-4">
@@ -64,10 +63,10 @@ export default function ShippingPolicyPage() {
             <table className="min-w-full border border-slate-200 rounded-lg">
               <thead className="bg-slate-100">
                 <tr>
-                  <th className="text-left py-3 px-4 font-semibold text-[#05203C]">
+                  <th className="text-left py-3 px-4 font-semibold text-ink">
                     Method
                   </th>
-                  <th className="text-left py-3 px-4 font-semibold text-[#05203C]">
+                  <th className="text-left py-3 px-4 font-semibold text-ink">
                     Transit time
                   </th>
                 </tr>
@@ -97,7 +96,7 @@ export default function ShippingPolicyPage() {
         </section>
 
         <section>
-          <h2 className="text-2xl font-bold text-[#05203C] mb-3">Shipping costs</h2>
+          <h2 className="text-2xl font-bold text-ink mb-3">Shipping costs</h2>
           <p>
             Shipping is quoted per order based on size, weight, destination, and
             method. We don&apos;t publish a flat rate because direct-from-supplier
@@ -108,7 +107,7 @@ export default function ShippingPolicyPage() {
         </section>
 
         <section>
-          <h2 className="text-2xl font-bold text-[#05203C] mb-3">
+          <h2 className="text-2xl font-bold text-ink mb-3">
             Customs and duties
           </h2>
           <p className="mb-4">
@@ -135,7 +134,7 @@ export default function ShippingPolicyPage() {
         </section>
 
         <section>
-          <h2 className="text-2xl font-bold text-[#05203C] mb-3">
+          <h2 className="text-2xl font-bold text-ink mb-3">
             Damage or loss in transit
           </h2>
           <p className="mb-4">Inspect your shipment before signing for it.</p>
@@ -160,7 +159,7 @@ export default function ShippingPolicyPage() {
         </section>
 
         <section>
-          <h2 className="text-2xl font-bold text-[#05203C] mb-3">Returns</h2>
+          <h2 className="text-2xl font-bold text-ink mb-3">Returns</h2>
           <p className="mb-4">
             Because parts ship directly from overseas suppliers, returns are handled
             case-by-case:
@@ -188,15 +187,15 @@ export default function ShippingPolicyPage() {
         </section>
 
         <section>
-          <h2 className="text-2xl font-bold text-[#05203C] mb-3">Questions</h2>
+          <h2 className="text-2xl font-bold text-ink mb-3">Questions</h2>
           <p>
             Every shipment is a little different. If you have specific timing,
             destination, or customs questions, share the details in a{' '}
-            <a href="/request-form" className="text-sky-700 hover:underline font-medium">
+            <a href="/request-form" className="text-lime-dark hover:underline font-medium">
               quote request
             </a>{' '}
             and we&apos;ll address them in our response &mdash; or call{' '}
-            <a href="tel:+14038755074" className="text-sky-700 hover:underline font-medium">
+            <a href="tel:+14038755074" className="text-lime-dark hover:underline font-medium">
               +1 403-875-5074
             </a>
             .

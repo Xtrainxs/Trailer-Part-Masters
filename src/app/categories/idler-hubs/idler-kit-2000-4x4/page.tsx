@@ -1,4 +1,4 @@
-import Link from 'next/link';
+﻿import Link from 'next/link';
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export const metadata = { title: 'Trailer Idler Hub & Bearing Kit for 2000 lb. Axles | 4 on 4\\" Bolt Pattern' };
@@ -25,7 +25,7 @@ export default function IdlerKit2000_4x4() {
           </div>
         ))}
       </div>
-      <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Available 2,000 lb 4x4 Idler Hub Kits</h2>
+      <h2 className="text-xl font-semibold mb-2 mt-8 text-ink">Available 2,000 lb 4x4 Idler Hub Kits</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white border border-slate-200 rounded-lg mb-8">
           <thead>
@@ -41,7 +41,7 @@ export default function IdlerKit2000_4x4() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-IHK-2000-4X4</td>
+              <td className="py-2 px-4 border-b">TPM-IHK-2000-4X4</td>
               <td className="py-2 px-4 border-b">4 on 4"</td>
               <td className="py-2 px-4 border-b">1.98"</td>
               <td className="py-2 px-4 border-b">1/2"</td>
@@ -50,7 +50,7 @@ export default function IdlerKit2000_4x4() {
               <td className="py-2 px-4 border-b">Black Powder Coat</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-IHK-2000-4X4Z</td>
+              <td className="py-2 px-4 border-b">TPM-IHK-2000-4X4Z</td>
               <td className="py-2 px-4 border-b">4 on 4"</td>
               <td className="py-2 px-4 border-b">1.98"</td>
               <td className="py-2 px-4 border-b">1/2"</td>

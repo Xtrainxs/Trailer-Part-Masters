@@ -1,4 +1,4 @@
-import CategoryCard from "@/components/category-card";
+﻿import CategoryCard from "@/components/category-card";
 
 const subcategories = [
   { name: "Adapters", description: "4-way to 7-way and 5-way to 7-way trailer connector adapters.", href: "/categories/trailer-electrical-parts/adapters" },
@@ -14,7 +14,7 @@ export const metadata = { title: 'Trailer Electrical Parts' };
 export default function TrailerElectricalPartsPage() {
   return (
     <main className="max-w-6xl mx-auto py-12 px-6">
-      <h1 className="text-3xl sm:text-4xl font-bold mb-3 text-[#05203C]">
+      <h1 className="text-3xl sm:text-4xl font-bold mb-3 text-ink">
         Trailer Electrical Parts
       </h1>
       <p className="text-base sm:text-lg text-slate-600 mb-10">

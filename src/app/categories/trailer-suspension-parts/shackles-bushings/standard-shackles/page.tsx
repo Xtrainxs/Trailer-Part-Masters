@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export const metadata = { title: 'Standard Shackles' };
@@ -6,8 +6,8 @@ export const metadata = { title: 'Standard Shackles' };
 export default function StandardShacklesPage() {
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">
-      <h1 className="text-2xl font-bold mb-4 text-[#05203C]">Standard Shackles</h1>
-      <p className="mb-8 text-[#05203C]">Standard shackles are essential for connecting leaf springs to the trailer frame, providing secure and flexible suspension. These shackles are suitable for most utility and light-duty trailers.</p>
+      <h1 className="text-2xl font-bold mb-4 text-ink">Standard Shackles</h1>
+      <p className="mb-8 text-ink">Standard shackles are essential for connecting leaf springs to the trailer frame, providing secure and flexible suspension. These shackles are suitable for most utility and light-duty trailers.</p>
       <div className="w-full flex justify-center items-center bg-blue-900 rounded-lg mb-8 p-4 gap-8">
         <div className="flex-1 flex justify-center">
           <img
@@ -42,7 +42,7 @@ export default function StandardShacklesPage() {
           />
         </div>
       </div>
-      <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Available Standard Shackles</h2>
+      <h2 className="text-xl font-semibold mb-2 mt-8 text-ink">Available Standard Shackles</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white border border-slate-200 rounded-lg mb-8">
           <thead>
@@ -55,19 +55,19 @@ export default function StandardShacklesPage() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-SS-3-1</td>
+              <td className="py-2 px-4 border-b">TPM-SS-3-1</td>
               <td className="py-2 px-4 border-b">Standard Shackle</td>
               <td className="py-2 px-4 border-b">3</td>
               <td className="py-2 px-4 border-b">1/4</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-SS-4-1</td>
+              <td className="py-2 px-4 border-b">TPM-SS-4-1</td>
               <td className="py-2 px-4 border-b">Standard Shackle</td>
               <td className="py-2 px-4 border-b">4</td>
               <td className="py-2 px-4 border-b">1/4</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-SS-5-1</td>
+              <td className="py-2 px-4 border-b">TPM-SS-5-1</td>
               <td className="py-2 px-4 border-b">Standard Shackle</td>
               <td className="py-2 px-4 border-b">5</td>
               <td className="py-2 px-4 border-b">1/4</td>

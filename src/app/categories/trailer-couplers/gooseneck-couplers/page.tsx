@@ -1,4 +1,4 @@
-import Link from 'next/link';
+﻿import Link from 'next/link';
 import RequestQuoteCTA from '@/components/request-quote-cta';
 import RangeDisclaimer from '@/components/range-disclaimer';
 
@@ -30,7 +30,7 @@ export default function GooseneckCouplers() {
           </div>
         ))}
       </div>
-      <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Available Gooseneck Couplers</h2>
+      <h2 className="text-xl font-semibold mb-2 mt-8 text-ink">Available Gooseneck Couplers</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white border border-slate-200 rounded-lg mb-8">
           <thead>
@@ -44,21 +44,21 @@ export default function GooseneckCouplers() {
           </thead>
           <tbody>
             <tr>
-                <td className="py-2 px-4 border-b">BTP-GNC-25000</td>
+                <td className="py-2 px-4 border-b">TPM-GNC-25000</td>
               <td className="py-2 px-4 border-b">Standard Gooseneck</td>
               <td className="py-2 px-4 border-b">2-5/16" Ball, 4" Tube</td>
               <td className="py-2 px-4 border-b">25,000</td>
               <td className="py-2 px-4 border-b">Black Powder Coat</td>
             </tr>
             <tr>
-                <td className="py-2 px-4 border-b">BTP-GNC-25000</td>
+                <td className="py-2 px-4 border-b">TPM-GNC-25000</td>
               <td className="py-2 px-4 border-b">Heavy Duty Gooseneck</td>
-                <td className="py-2 px-4 border-b">BTP-GNC-30000</td>
+                <td className="py-2 px-4 border-b">TPM-GNC-30000</td>
               <td className="py-2 px-4 border-b">30,000</td>
-                <td className="py-2 px-4 border-b">BTP-GNC-30000G</td>
+                <td className="py-2 px-4 border-b">TPM-GNC-30000G</td>
             </tr>
             <tr>
-                <td className="py-2 px-4 border-b">BTP-GNC-30000G</td>
+                <td className="py-2 px-4 border-b">TPM-GNC-30000G</td>
               <td className="py-2 px-4 border-b">HD Gooseneck</td>
               <td className="py-2 px-4 border-b">2-5/16" Ball, 4" Tube</td>
               <td className="py-2 px-4 border-b">30,000</td>

@@ -1,4 +1,4 @@
-import Link from 'next/link';
+﻿import Link from 'next/link';
 
 export const metadata = { title: '10\\" Brake Drum Kit for 3,500 lb. Axles | 5 on 4.5\\" Bolt Pattern' };
 
@@ -24,7 +24,7 @@ export default function BrakeDrum10in3500_5x45() {
           </div>
         ))}
       </div>
-      <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Kit Components</h2>
+      <h2 className="text-xl font-semibold mb-2 mt-8 text-ink">Kit Components</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white border border-slate-200 rounded-lg mb-8">
           <thead>

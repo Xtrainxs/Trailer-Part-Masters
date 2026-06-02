@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export const metadata = { title: 'Trailer Idler Hub for 2,000 lb. Axles | 4 on 4\\" Bolt Pattern' };
@@ -7,7 +7,7 @@ export default function IdlerHub2000_4x4() {
   return (
     <div className="max-w-4xl mx-auto py-12 px-4">
       <div className="mb-6">
-        <Link href="/categories/idler-hubs" className="text-blue-600 hover:underline">
+        <Link href="/categories/idler-hubs" className="text-lime-dark font-semibold uppercase text-xs tracking-wide hover:underline">
           Back to Idler Hubs
         </Link>
       </div>
@@ -17,7 +17,7 @@ export default function IdlerHub2000_4x4() {
         Standard idler hub compatible with 2,000 lb axles featuring a 4x4 bolt pattern.
       </p>
 
-      <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Available 2,000 lb 4x4 Idler Hubs</h2>
+      <h2 className="text-xl font-semibold mb-2 mt-8 text-ink">Available 2,000 lb 4x4 Idler Hubs</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white border border-slate-200 rounded-lg mb-8">
           <thead>
@@ -32,7 +32,7 @@ export default function IdlerHub2000_4x4() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-IHK-2000-4X4</td>
+              <td className="py-2 px-4 border-b">TPM-IHK-2000-4X4</td>
               <td className="py-2 px-4 border-b">4 on 4"</td>
               <td className="py-2 px-4 border-b">1.98"</td>
               <td className="py-2 px-4 border-b">1/2"</td>
@@ -40,7 +40,7 @@ export default function IdlerHub2000_4x4() {
               <td className="py-2 px-4 border-b">Black Powder Coat</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-IHK-2000-4X4Z</td>
+              <td className="py-2 px-4 border-b">TPM-IHK-2000-4X4Z</td>
               <td className="py-2 px-4 border-b">4 on 4"</td>
               <td className="py-2 px-4 border-b">1.98"</td>
               <td className="py-2 px-4 border-b">1/2"</td>

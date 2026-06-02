@@ -1,4 +1,4 @@
-import RequestQuoteCTA from '@/components/request-quote-cta';
+﻿import RequestQuoteCTA from '@/components/request-quote-cta';
 import RangeDisclaimer from '@/components/range-disclaimer';
 
 export const metadata = { title: 'License Plate Lights' };
@@ -6,7 +6,7 @@ export const metadata = { title: 'License Plate Lights' };
 export default function LicensePlateLights() {
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">
-      <h1 className="text-2xl font-bold mb-4 text-[#05203C]">License Plate Lights</h1>
+      <h1 className="text-2xl font-bold mb-4 text-ink">License Plate Lights</h1>
       <p className="text-lg text-gray-700 mb-4">Bright, compact license plate lights for trailers. Available in LED and incandescent, surface or bracket mount.</p>
       <RangeDisclaimer
         intro="Our license plate lights range includes:"
@@ -35,10 +35,10 @@ export default function LicensePlateLights() {
           </div>
         ))}
       </div>
-      <p className="text-lg text-[#05203C] font-bold mb-4">
+      <p className="text-lg text-ink font-bold mb-4">
         We can supply all kinds and types of trailer license plate lights irrespective of the table contents.
       </p>
-      <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Product Table</h2>
+      <h2 className="text-xl font-semibold mb-2 mt-8 text-ink">Product Table</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white border border-slate-200 rounded-lg mb-8">
           <thead>
@@ -53,7 +53,7 @@ export default function LicensePlateLights() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-LPL-LED</td>
+              <td className="py-2 px-4 border-b">TPM-LPL-LED</td>
               <td className="py-2 px-4 border-b">LED</td>
               <td className="py-2 px-4 border-b">1.5" x 1"</td>
               <td className="py-2 px-4 border-b">12V</td>
@@ -61,12 +61,12 @@ export default function LicensePlateLights() {
               <td className="py-2 px-4 border-b">IP67</td>
             </tr>
             <tr>
-                <td className="py-2 px-4 border-b">BTP-LPL-LED</td>
+                <td className="py-2 px-4 border-b">TPM-LPL-LED</td>
               <td className="py-2 px-4 border-b">Incandescent</td>
               <td className="py-2 px-4 border-b">1.5" x 1"</td>
               <td className="py-2 px-4 border-b">12V</td>
               <td className="py-2 px-4 border-b">Surface</td>
-                <td className="py-2 px-4 border-b">BTP-LPL-INC</td>
+                <td className="py-2 px-4 border-b">TPM-LPL-INC</td>
             </tr>
           </tbody>
         </table>

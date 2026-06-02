@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export const metadata = { title: 'Single-Axle Hanger Kits' };
@@ -6,8 +6,8 @@ export const metadata = { title: 'Single-Axle Hanger Kits' };
 export default function SingleAxleHangerKitsPage() {
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">
-      <h1 className="text-2xl font-bold mb-4 text-[#05203C]">Single-Axle Hanger Kits</h1>
-      <p className="mb-8 text-[#05203C]">
+      <h1 className="text-2xl font-bold mb-4 text-ink">Single-Axle Hanger Kits</h1>
+      <p className="mb-8 text-ink">
         Complete hanger kit options for single-axle setups, including double-eye and slipper configurations.
       </p>
 
@@ -38,7 +38,7 @@ export default function SingleAxleHangerKitsPage() {
         </div>
       </div>
 
-      <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Available Single-Axle Hanger Kits</h2>
+      <h2 className="text-xl font-semibold mb-2 mt-8 text-ink">Available Single-Axle Hanger Kits</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white border border-slate-200 rounded-lg mb-8">
           <thead>
@@ -50,7 +50,7 @@ export default function SingleAxleHangerKitsPage() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b font-semibold whitespace-nowrap">BTP-HK1002</td>
+              <td className="py-2 px-4 border-b font-semibold whitespace-nowrap">TPM-HK1002</td>
               <td className="py-2 px-4 border-b">Double-Eye</td>
               <td className="py-2 px-4 border-b">
                 <span
@@ -67,7 +67,7 @@ export default function SingleAxleHangerKitsPage() {
               </td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b font-semibold whitespace-nowrap">BTP-HK1003</td>
+              <td className="py-2 px-4 border-b font-semibold whitespace-nowrap">TPM-HK1003</td>
               <td className="py-2 px-4 border-b">Double-Eye</td>
               <td className="py-2 px-4 border-b">
                 <span
@@ -84,7 +84,7 @@ export default function SingleAxleHangerKitsPage() {
               </td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b font-semibold whitespace-nowrap">BTP-HK1004</td>
+              <td className="py-2 px-4 border-b font-semibold whitespace-nowrap">TPM-HK1004</td>
               <td className="py-2 px-4 border-b">Double-Eye</td>
               <td className="py-2 px-4 border-b">
                 <span
@@ -101,7 +101,7 @@ export default function SingleAxleHangerKitsPage() {
               </td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b font-semibold whitespace-nowrap">BTP-HK1005</td>
+              <td className="py-2 px-4 border-b font-semibold whitespace-nowrap">TPM-HK1005</td>
               <td className="py-2 px-4 border-b">Double-Eye</td>
               <td className="py-2 px-4 border-b">
                 <span
@@ -118,7 +118,7 @@ export default function SingleAxleHangerKitsPage() {
               </td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b font-semibold whitespace-nowrap">BTP-HK2006</td>
+              <td className="py-2 px-4 border-b font-semibold whitespace-nowrap">TPM-HK2006</td>
               <td className="py-2 px-4 border-b">Slipper</td>
               <td className="py-2 px-4 border-b">
                 <span
@@ -134,7 +134,7 @@ export default function SingleAxleHangerKitsPage() {
               </td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b font-semibold whitespace-nowrap">BTP-HK2007</td>
+              <td className="py-2 px-4 border-b font-semibold whitespace-nowrap">TPM-HK2007</td>
               <td className="py-2 px-4 border-b">Slipper</td>
               <td className="py-2 px-4 border-b">
                 <span
@@ -150,7 +150,7 @@ export default function SingleAxleHangerKitsPage() {
               </td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b font-semibold whitespace-nowrap">BTP-HK3008</td>
+              <td className="py-2 px-4 border-b font-semibold whitespace-nowrap">TPM-HK3008</td>
               <td className="py-2 px-4 border-b">Double-Eye</td>
               <td className="py-2 px-4 border-b">
                 <span
@@ -166,7 +166,7 @@ export default function SingleAxleHangerKitsPage() {
               </td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b font-semibold whitespace-nowrap">BTP-HK4009</td>
+              <td className="py-2 px-4 border-b font-semibold whitespace-nowrap">TPM-HK4009</td>
               <td className="py-2 px-4 border-b">Double-Eye</td>
               <td className="py-2 px-4 border-b">
                 <span
@@ -181,7 +181,7 @@ export default function SingleAxleHangerKitsPage() {
               </td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b font-semibold whitespace-nowrap">BTP-HK4010</td>
+              <td className="py-2 px-4 border-b font-semibold whitespace-nowrap">TPM-HK4010</td>
               <td className="py-2 px-4 border-b">Double-Eye</td>
               <td className="py-2 px-4 border-b">
                 <span

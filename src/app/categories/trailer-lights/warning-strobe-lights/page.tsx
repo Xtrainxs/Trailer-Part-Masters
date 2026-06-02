@@ -1,11 +1,11 @@
-import RequestQuoteCTA from '@/components/request-quote-cta';
+﻿import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export const metadata = { title: 'Warning/Strobe Lights' };
 
 export default function WarningStrobeLights() {
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">
-      <h1 className="text-2xl font-bold mb-4 text-[#05203C]">Warning/Strobe Lights</h1>
+      <h1 className="text-2xl font-bold mb-4 text-ink">Warning/Strobe Lights</h1>
       <p className="text-lg text-gray-700 mb-6">
         High-visibility warning and strobe lights for trailers, service vehicles,
         and utility applications. Built for durability, weather resistance, and
@@ -26,10 +26,10 @@ export default function WarningStrobeLights() {
           </div>
         ))}
       </div>
-      <p className="text-lg text-[#05203C] font-bold mb-4">
+      <p className="text-lg text-ink font-bold mb-4">
         We can supply all kinds and types of trailer warning-strobe lights irrespective of the table contents.
       </p>
-      <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Product Table</h2>
+      <h2 className="text-xl font-semibold mb-2 mt-8 text-ink">Product Table</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white border border-slate-200 rounded-lg mb-8">
           <thead>
@@ -44,7 +44,7 @@ export default function WarningStrobeLights() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-WSL-AMB-12V</td>
+              <td className="py-2 px-4 border-b">TPM-WSL-AMB-12V</td>
               <td className="py-2 px-4 border-b">LED Strobe</td>
               <td className="py-2 px-4 border-b">Amber</td>
               <td className="py-2 px-4 border-b">12V</td>
@@ -52,7 +52,7 @@ export default function WarningStrobeLights() {
               <td className="py-2 px-4 border-b">IP67</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-WSL-RB-12V</td>
+              <td className="py-2 px-4 border-b">TPM-WSL-RB-12V</td>
               <td className="py-2 px-4 border-b">Warning Light</td>
               <td className="py-2 px-4 border-b">Red/Blue</td>
               <td className="py-2 px-4 border-b">12V</td>

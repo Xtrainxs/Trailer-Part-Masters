@@ -1,4 +1,4 @@
-import Link from 'next/link';
+﻿import Link from 'next/link';
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
 const subcategories = [
@@ -36,7 +36,7 @@ export default function Hydraulic10() {
         ))}
       </div>
 
-      <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Available 10" Hydraulic Brake Assemblies</h2>
+      <h2 className="text-xl font-semibold mb-2 mt-8 text-ink">Available 10" Hydraulic Brake Assemblies</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white border border-slate-200 rounded-lg mb-8">
           <thead>
@@ -51,7 +51,7 @@ export default function Hydraulic10() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-BA-10H-MAN-L</td>
+              <td className="py-2 px-4 border-b">TPM-BA-10H-MAN-L</td>
               <td className="py-2 px-4 border-b">Hydraulic Drum</td>
               <td className="py-2 px-4 border-b">Left</td>
               <td className="py-2 px-4 border-b">Manual</td>
@@ -59,7 +59,7 @@ export default function Hydraulic10() {
               <td className="py-2 px-4 border-b">Black Powder Coat</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-BA-10H-MAN-R</td>
+              <td className="py-2 px-4 border-b">TPM-BA-10H-MAN-R</td>
               <td className="py-2 px-4 border-b">Hydraulic Drum</td>
               <td className="py-2 px-4 border-b">Right</td>
               <td className="py-2 px-4 border-b">Manual</td>
@@ -67,7 +67,7 @@ export default function Hydraulic10() {
               <td className="py-2 px-4 border-b">Black Powder Coat</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-BA-10H-FB-L</td>
+              <td className="py-2 px-4 border-b">TPM-BA-10H-FB-L</td>
               <td className="py-2 px-4 border-b">Hydraulic Drum (Freebacking)</td>
               <td className="py-2 px-4 border-b">Left</td>
               <td className="py-2 px-4 border-b">Manual</td>
@@ -75,7 +75,7 @@ export default function Hydraulic10() {
               <td className="py-2 px-4 border-b">Black Powder Coat</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-BA-10H-FB-R</td>
+              <td className="py-2 px-4 border-b">TPM-BA-10H-FB-R</td>
               <td className="py-2 px-4 border-b">Hydraulic Drum (Freebacking)</td>
               <td className="py-2 px-4 border-b">Right</td>
               <td className="py-2 px-4 border-b">Manual</td>

@@ -1,4 +1,4 @@
-import { readdir } from "fs/promises";
+﻿import { readdir } from "fs/promises";
 import RangeDisclaimer from '@/components/range-disclaimer';
 import path from "path";
 
@@ -54,9 +54,9 @@ export default async function BoatTrailerPartsPage() {
 
   return (
     <main className="max-w-6xl mx-auto py-12 px-6">
-      <h1 className="text-2xl font-bold mb-4 text-[#05203C]">Boat Trailer Parts</h1>
+      <h1 className="text-2xl font-bold mb-4 text-ink">Boat Trailer Parts</h1>
       <p className="text-lg text-slate-700 mb-4">
-        We carry all kinds of boat trailer parts and marine trailer accessories — pictures below
+        We carry all kinds of boat trailer parts and marine trailer accessories â€” pictures below
         are for reference only and represent a small sample of what is available.
       </p>
       <RangeDisclaimer

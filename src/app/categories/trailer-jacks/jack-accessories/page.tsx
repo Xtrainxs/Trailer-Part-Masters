@@ -1,4 +1,4 @@
-import Link from 'next/link';
+﻿import Link from 'next/link';
 import RequestQuoteCTA from '@/components/request-quote-cta';
 import RangeDisclaimer from '@/components/range-disclaimer';
 
@@ -35,7 +35,7 @@ export default function JackAccessories() {
           </div>
         ))}
       </div>
-      <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Available Jack Accessories</h2>
+      <h2 className="text-xl font-semibold mb-2 mt-8 text-ink">Available Jack Accessories</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white border border-slate-200 rounded-lg mb-8">
           <thead>
@@ -48,19 +48,19 @@ export default function JackAccessories() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-JA-HANDLE</td>
+              <td className="py-2 px-4 border-b">TPM-JA-HANDLE</td>
               <td className="py-2 px-4 border-b">Replacement Handle</td>
               <td className="py-2 px-4 border-b">Standard</td>
               <td className="py-2 px-4 border-b">Steel</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-JA-PAD</td>
+              <td className="py-2 px-4 border-b">TPM-JA-PAD</td>
               <td className="py-2 px-4 border-b">Jack Pad</td>
               <td className="py-2 px-4 border-b">8" x 8"</td>
               <td className="py-2 px-4 border-b">Rubber</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-JA-COVER</td>
+              <td className="py-2 px-4 border-b">TPM-JA-COVER</td>
               <td className="py-2 px-4 border-b">Protective Cover</td>
               <td className="py-2 px-4 border-b">Universal</td>
               <td className="py-2 px-4 border-b">Vinyl</td>

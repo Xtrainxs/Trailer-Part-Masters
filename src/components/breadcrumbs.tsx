@@ -101,23 +101,23 @@ export default function Breadcrumbs() {
   return (
     <nav
       aria-label="Breadcrumb"
-      className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 pb-2 text-sm text-slate-500"
+      className="bg-white border-b border-line"
     >
-      <ol className="flex items-center flex-wrap gap-x-2 gap-y-1">
+      <ol className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center flex-wrap gap-x-2 gap-y-1 text-xs uppercase tracking-wide font-medium text-slate-500">
         <li>
-          <Link href="/" className="hover:text-sky-700 transition">
+          <Link href="/" className="hover:text-lime-dark transition">
             Home
           </Link>
         </li>
         {items.map((item, idx) => (
           <li key={item.href} className="flex items-center gap-x-2">
-            <span className="text-slate-400" aria-hidden="true">
-              &rsaquo;
+            <span className="text-lime" aria-hidden="true">
+              /
             </span>
             {idx === items.length - 1 ? (
-              <span className="text-[#05203C] font-medium">{item.label}</span>
+              <span className="text-ink font-semibold">{item.label}</span>
             ) : (
-              <Link href={item.href} className="hover:text-sky-700 transition">
+              <Link href={item.href} className="hover:text-lime-dark transition">
                 {item.label}
               </Link>
             )}

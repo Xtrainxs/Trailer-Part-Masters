@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export const metadata = { title: 'Wet-Bolt Shackles' };
@@ -6,9 +6,9 @@ export const metadata = { title: 'Wet-Bolt Shackles' };
 export default function WetBoltShacklesPage() {
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">
-      <h1 className="text-2xl font-bold mb-4 text-[#05203C]">Wet-Bolt Shackles</h1>
-      <p className="mb-8 text-[#05203C]">Wet-bolt shackles feature greaseable bolts for improved longevity and reduced wear. These shackles are perfect for trailers exposed to harsh conditions and frequent use.</p>
-      <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Available Wet-Bolt Shackles</h2>
+      <h1 className="text-2xl font-bold mb-4 text-ink">Wet-Bolt Shackles</h1>
+      <p className="mb-8 text-ink">Wet-bolt shackles feature greaseable bolts for improved longevity and reduced wear. These shackles are perfect for trailers exposed to harsh conditions and frequent use.</p>
+      <h2 className="text-xl font-semibold mb-2 mt-8 text-ink">Available Wet-Bolt Shackles</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white border border-slate-200 rounded-lg mb-8">
           <thead>
@@ -21,19 +21,19 @@ export default function WetBoltShacklesPage() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-WBS-4-1</td>
+              <td className="py-2 px-4 border-b">TPM-WBS-4-1</td>
               <td className="py-2 px-4 border-b">Wet-Bolt Shackle</td>
               <td className="py-2 px-4 border-b">4</td>
               <td className="py-2 px-4 border-b">1/4</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-WBS-5-1</td>
+              <td className="py-2 px-4 border-b">TPM-WBS-5-1</td>
               <td className="py-2 px-4 border-b">Wet-Bolt Shackle</td>
               <td className="py-2 px-4 border-b">5</td>
               <td className="py-2 px-4 border-b">1/4</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-WBS-6-1</td>
+              <td className="py-2 px-4 border-b">TPM-WBS-6-1</td>
               <td className="py-2 px-4 border-b">Wet-Bolt Shackle</td>
               <td className="py-2 px-4 border-b">6</td>
               <td className="py-2 px-4 border-b">1/4</td>

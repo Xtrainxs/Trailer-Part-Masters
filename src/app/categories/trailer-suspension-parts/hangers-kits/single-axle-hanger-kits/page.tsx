@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import RangeDisclaimer from '@/components/range-disclaimer';
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
@@ -7,8 +7,8 @@ export const metadata = { title: 'Single-Axle Hanger Kits' };
 export default function SingleAxleHangerKitsPage() {
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">
-      <h1 className="text-2xl font-bold mb-4 text-[#05203C]">Single-Axle Hanger Kits</h1>
-      <p className="mb-4 text-[#05203C]">Single-axle hanger kits provide all the essential components for mounting leaf springs to a trailer frame. These kits are designed for straightforward installation and reliable performance, making them ideal for utility and light-duty trailers.</p>
+      <h1 className="text-2xl font-bold mb-4 text-ink">Single-Axle Hanger Kits</h1>
+      <p className="mb-4 text-ink">Single-axle hanger kits provide all the essential components for mounting leaf springs to a trailer frame. These kits are designed for straightforward installation and reliable performance, making them ideal for utility and light-duty trailers.</p>
       <RangeDisclaimer
         intro="Our single-axle hanger kits range includes:"
         items={["2,000 lb capacity","3,500 lb capacity","5,200 lb capacity","Front Hanger","Center Hanger","Rear Hanger","Complete Hardware Sets","Weld-On style","Bolt-On style","Zinc-Plated","Powder Coat","Individual replacement hangers"]}
@@ -37,7 +37,7 @@ export default function SingleAxleHangerKitsPage() {
           </div>
         ))}
       </div>
-      <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Available Single-Axle Hanger Kits</h2>
+      <h2 className="text-xl font-semibold mb-2 mt-8 text-ink">Available Single-Axle Hanger Kits</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white border border-slate-200 rounded-lg mb-8">
           <thead>
@@ -50,19 +50,19 @@ export default function SingleAxleHangerKitsPage() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-SAHK-2000</td>
+              <td className="py-2 px-4 border-b">TPM-SAHK-2000</td>
               <td className="py-2 px-4 border-b">Standard Single-Axle Kit</td>
               <td className="py-2 px-4 border-b">25</td>
               <td className="py-2 px-4 border-b">2,000</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-SAHK-3500</td>
+              <td className="py-2 px-4 border-b">TPM-SAHK-3500</td>
               <td className="py-2 px-4 border-b">Heavy Duty Single-Axle Kit</td>
               <td className="py-2 px-4 border-b">27</td>
               <td className="py-2 px-4 border-b">3,500</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-SAHK-5000</td>
+              <td className="py-2 px-4 border-b">TPM-SAHK-5000</td>
               <td className="py-2 px-4 border-b">Multi-Leaf Single-Axle Kit</td>
               <td className="py-2 px-4 border-b">30</td>
               <td className="py-2 px-4 border-b">5,000</td>

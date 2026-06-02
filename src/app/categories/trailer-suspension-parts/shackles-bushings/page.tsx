@@ -1,4 +1,4 @@
-import CategoryCard from "@/components/category-card";
+﻿import CategoryCard from "@/components/category-card";
 
 const subcategories = [
   { name: "Standard Shackles", description: "Zinc-plated standard shackles for light to medium trailer suspension.", href: "/categories/trailer-suspension-parts/shackles-bushings/standard-shackles" },
@@ -15,7 +15,7 @@ export const metadata = { title: 'Shackles &amp; Bushings' };
 export default function ShacklesBushingsPage() {
   return (
     <main className="max-w-6xl mx-auto py-12 px-6">
-      <h1 className="text-3xl sm:text-4xl font-bold mb-3 text-[#05203C]">
+      <h1 className="text-3xl sm:text-4xl font-bold mb-3 text-ink">
         Shackles &amp; Bushings
       </h1>
       <p className="text-base sm:text-lg text-slate-600 mb-10">

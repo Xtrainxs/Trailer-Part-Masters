@@ -1,4 +1,4 @@
-import CategoryCard from "@/components/category-card";
+﻿import CategoryCard from "@/components/category-card";
 
 const subcategories = [
   { name: "LED Tail Lights", description: "Round and oval submersible LED tail lights, DOT compliant.", href: "/categories/trailer-lights/led-tail-lights" },
@@ -15,7 +15,7 @@ export const metadata = { title: 'Trailer Lights' };
 export default function TrailerLightsPage() {
   return (
     <main className="max-w-6xl mx-auto py-12 px-6">
-      <h1 className="text-3xl sm:text-4xl font-bold mb-3 text-[#05203C]">
+      <h1 className="text-3xl sm:text-4xl font-bold mb-3 text-ink">
         Trailer Lights
       </h1>
       <p className="text-base sm:text-lg text-slate-600 mb-10">

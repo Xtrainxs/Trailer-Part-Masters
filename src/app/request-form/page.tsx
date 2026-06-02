@@ -11,14 +11,14 @@ export default function RequestFormPage({ searchParams }: PageProps) {
     : '';
 
   const inputClass =
-    "w-full px-3 py-2.5 rounded-md border border-slate-200 bg-white text-slate-900 placeholder:text-slate-400 focus:border-[#05203C] focus:outline-none focus:ring-1 focus:ring-[#05203C] transition";
+    "w-full px-3 py-2.5 rounded-md border border-slate-200 bg-white text-slate-900 placeholder:text-slate-400 focus:border-ink focus:outline-none focus:ring-1 focus:ring-lime-dark transition";
   const labelClass = "block font-semibold text-sm mb-1 text-slate-700";
 
   return (
     <div className="max-w-2xl mx-auto px-6 py-14">
       <header className="text-center mb-10">
         <div className="mb-6 flex items-center justify-center">
-          <span className="inline-flex bg-[#05203C] rounded-xl px-6 py-4 shadow-sm">
+          <span className="inline-flex bg-ink rounded-xl px-6 py-4 shadow-sm">
             <img
               src="/logo.png"
               alt="Trailer Part Masters logo"
@@ -26,12 +26,11 @@ export default function RequestFormPage({ searchParams }: PageProps) {
             />
           </span>
         </div>
-        <p className="text-xs sm:text-sm font-semibold tracking-[0.25em] uppercase text-sky-700 mb-3">
+        <p className="text-xs sm:text-sm font-semibold tracking-[0.25em] uppercase text-lime-dark mb-3">
           Request a Quote
         </p>
         <h1
-          className="text-4xl sm:text-5xl font-bold text-[#05203C] tracking-tight"
-          style={{ fontFamily: "'Playfair Display', Georgia, serif" }}
+          className="font-display uppercase text-4xl sm:text-5xl font-bold text-ink tracking-tight"
         >
           Request Parts / Quote
         </h1>
@@ -43,20 +42,20 @@ export default function RequestFormPage({ searchParams }: PageProps) {
 
       <div className="border-y border-slate-200 py-6 mb-12 grid grid-cols-1 sm:grid-cols-3 gap-6 text-center text-sm">
         <div>
-          <p className="text-xs font-semibold uppercase tracking-wider text-sky-700 mb-1">Phone</p>
-          <a href="tel:+14038755074" className="text-[#05203C] hover:text-sky-700 font-medium transition">
+          <p className="text-xs font-semibold uppercase tracking-wider text-lime-dark mb-1">Phone</p>
+          <a href="tel:+14038755074" className="text-ink hover:text-lime-dark font-medium transition">
             +1 403-875-5074
           </a>
         </div>
         <div>
-          <p className="text-xs font-semibold uppercase tracking-wider text-sky-700 mb-1">Email</p>
-          <a href="mailto:trailerpartmasters@shaw.ca" className="text-[#05203C] hover:text-sky-700 font-medium break-all transition">
+          <p className="text-xs font-semibold uppercase tracking-wider text-lime-dark mb-1">Email</p>
+          <a href="mailto:trailerpartmasters@shaw.ca" className="text-ink hover:text-lime-dark font-medium break-all transition">
             trailerpartmasters@shaw.ca
           </a>
         </div>
         <div>
-          <p className="text-xs font-semibold uppercase tracking-wider text-sky-700 mb-1">Address</p>
-          <p className="text-[#05203C] font-medium leading-snug">
+          <p className="text-xs font-semibold uppercase tracking-wider text-lime-dark mb-1">Address</p>
+          <p className="text-ink font-medium leading-snug">
             Taralake Manor NE<br />Calgary, AB, Canada
           </p>
         </div>
@@ -137,10 +136,7 @@ export default function RequestFormPage({ searchParams }: PageProps) {
           />
         </div>
         <div className="sm:col-span-2 flex justify-end mt-2">
-          <button
-            type="submit"
-            className="px-8 py-3 rounded-md bg-[#05203C] text-white font-semibold shadow-sm hover:bg-[#0a3460] transition"
-          >
+          <button type="submit" className="btn-lime">
             Submit Request
           </button>
         </div>
@@ -148,18 +144,17 @@ export default function RequestFormPage({ searchParams }: PageProps) {
 
       <section className="mt-14 bg-slate-50 border border-slate-200 rounded-xl p-6 sm:p-8">
         <h2
-          className="text-lg sm:text-xl font-bold text-[#05203C] mb-6 text-center"
-          style={{ fontFamily: "'Playfair Display', Georgia, serif" }}
+          className="font-display uppercase text-lg sm:text-xl font-bold text-ink mb-6 text-center"
         >
           What happens next?
         </h2>
         <ol className="space-y-5">
           <li className="flex gap-4 items-start">
-            <span className="flex-none w-8 h-8 rounded-full bg-[#05203C] text-white text-sm font-semibold flex items-center justify-center">
+            <span className="flex-none w-8 h-8 rounded-full bg-ink text-white text-sm font-semibold flex items-center justify-center">
               1
             </span>
             <div className="flex-1">
-              <p className="font-semibold text-[#05203C]">We receive your request</p>
+              <p className="font-semibold text-ink">We receive your request</p>
               <p className="text-sm text-slate-600 mt-0.5 leading-relaxed">
                 Usually within 30 seconds. You&apos;ll see a confirmation page right
                 away.
@@ -167,11 +162,11 @@ export default function RequestFormPage({ searchParams }: PageProps) {
             </div>
           </li>
           <li className="flex gap-4 items-start">
-            <span className="flex-none w-8 h-8 rounded-full bg-[#05203C] text-white text-sm font-semibold flex items-center justify-center">
+            <span className="flex-none w-8 h-8 rounded-full bg-ink text-white text-sm font-semibold flex items-center justify-center">
               2
             </span>
             <div className="flex-1">
-              <p className="font-semibold text-[#05203C]">We match it to a supplier</p>
+              <p className="font-semibold text-ink">We match it to a supplier</p>
               <p className="text-sm text-slate-600 mt-0.5 leading-relaxed">
                 We check stock, lead time, and pricing across our vetted manufacturer
                 network.
@@ -179,11 +174,11 @@ export default function RequestFormPage({ searchParams }: PageProps) {
             </div>
           </li>
           <li className="flex gap-4 items-start">
-            <span className="flex-none w-8 h-8 rounded-full bg-[#05203C] text-white text-sm font-semibold flex items-center justify-center">
+            <span className="flex-none w-8 h-8 rounded-full bg-ink text-white text-sm font-semibold flex items-center justify-center">
               3
             </span>
             <div className="flex-1">
-              <p className="font-semibold text-[#05203C]">You receive a quote</p>
+              <p className="font-semibold text-ink">You receive a quote</p>
               <p className="text-sm text-slate-600 mt-0.5 leading-relaxed">
                 Within 1&ndash;2 business days, by email with all the details.
               </p>
@@ -194,7 +189,7 @@ export default function RequestFormPage({ searchParams }: PageProps) {
           Time-sensitive?{' '}
           <a
             href="tel:+14038755074"
-            className="text-sky-700 hover:underline font-medium"
+            className="text-lime-dark hover:underline font-medium"
           >
             Call us directly at +1 403-875-5074
           </a>

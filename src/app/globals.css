@@ -1,170 +1,130 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@keyframes imageScroll {
+/* ==========================================================================
+   Trailer Part Masters — Industrial / Hi-Vis design system
+   Charcoal + logo lime-green on clean white. Condensed uppercase headings,
+   sharp edges, hazard-stripe accents. Deliberately distinct from the
+   Best Trailer Parts (navy + serif) look.
+   ========================================================================== */
+
+:root {
+  --ink: #1a1d21;        /* near-black charcoal: headers, footer, headings */
+  --steel: #2a2e35;      /* secondary dark surface */
+  --lime: #8dc63f;       /* hi-vis brand green (from the logo) */
+  --lime-dark: #6fa32c;  /* hover / pressed */
+  --concrete: #f4f5f4;   /* page background */
+  --line: #e3e5e3;       /* hairline borders on light surfaces */
+}
+
+@layer base {
+  body {
+    background-color: var(--concrete);
+    color: #2a2e35;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: 'Oswald', 'Arial Narrow', sans-serif;
+    letter-spacing: 0.01em;
+  }
+}
+
+@layer components {
+  /* Condensed uppercase eyebrow label used above section headings */
+  .eyebrow {
+    @apply inline-block text-xs font-semibold uppercase tracking-[0.22em] text-[#6fa32c];
+  }
+
+  /* Primary hi-vis CTA */
+  .btn-lime {
+    @apply inline-flex items-center justify-center gap-2 bg-[#8dc63f] text-[#1a1d21]
+           font-display font-semibold uppercase tracking-wide px-7 py-3
+           rounded-sm shadow-sm transition-colors hover:bg-[#6fa32c];
+  }
+
+  /* Dark/ghost CTA on light backgrounds */
+  .btn-dark {
+    @apply inline-flex items-center justify-center gap-2 bg-[#1a1d21] text-white
+           font-display font-semibold uppercase tracking-wide px-7 py-3
+           rounded-sm shadow-sm transition-colors hover:bg-[#2a2e35];
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 border-2 border-[#1a1d21] text-[#1a1d21]
+           font-display font-semibold uppercase tracking-wide px-7 py-3
+           rounded-sm transition-colors hover:bg-[#1a1d21] hover:text-white;
+  }
+
+  /* Industrial card: sharp corners, thick lime top accent on hover */
+  .ind-card {
+    @apply relative flex flex-col bg-white border border-[#e3e5e3] rounded-sm
+           p-6 transition-all hover:border-[#1a1d21] hover:shadow-[0_10px_30px_-12px_rgba(26,29,33,0.35)];
+  }
+}
+
+/* Diagonal hi-vis "hazard" stripe — used as a thin industrial accent bar */
+.hazard-stripe {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    #1a1d21 0,
+    #1a1d21 14px,
+    #8dc63f 14px,
+    #8dc63f 28px
+  );
+}
+
+/* Marquee for the rolling part-name strip on the homepage */
+@keyframes marqueeScroll {
   0%   { transform: translateX(0); }
   100% { transform: translateX(-50%); }
 }
-
-.image-strip-track {
-  animation: imageScroll 50s linear infinite;
+.marquee-track {
+  animation: marqueeScroll 40s linear infinite;
 }
-
-.image-strip-track:hover {
+.marquee-track:hover {
   animation-play-state: paused;
 }
 
-:root,
-html[data-theme="sunrise-teal"] {
-	--page-grad-start: #facc15;
-	--page-grad-mid: #fbbf24;
-	--page-grad-end: #2dd4bf;
-	--header-grad-start: #1e3a8a;
-	--header-grad-mid: #b45309;
-	--header-grad-end: #0f766e;
-	--footer-grad-start: #1e3a8a;
-	--footer-grad-mid: #b45309;
-	--footer-grad-end: #0f766e;
-	--header-link-hover: #fde047;
-	--theme-chip-border: #67e8f9;
-	--nav-btn-start: #a7f3d0;
-	--nav-btn-end: #67e8f9;
-	--nav-btn-text: #0f172a;
-	--nav-btn-hover-text: #ffffff;
-	--surface-card: #eef5fb;
-	--surface-card-border: #bfdbfe;
+/* ==========================================================================
+   Product spec tables (used across category/product pages) — restyled to the
+   industrial system: charcoal header, lime hairline, zebra rows.
+   ========================================================================== */
+main table.min-w-full {
+  border: 1px solid var(--line);
+  background-color: #ffffff;
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: 0 8px 22px rgba(26, 29, 33, 0.06);
 }
-
-html[data-theme="navy-amber"] {
-	--page-grad-start: #0f172a;
-	--page-grad-mid: #1e293b;
-	--page-grad-end: #334155;
-	--header-grad-start: #0b1220;
-	--header-grad-mid: #111827;
-	--header-grad-end: #1f2937;
-	--footer-grad-start: #0b1220;
-	--footer-grad-mid: #111827;
-	--footer-grad-end: #1f2937;
-	--header-link-hover: #f59e0b;
-	--theme-chip-border: #f59e0b;
-	--nav-btn-start: #fcd34d;
-	--nav-btn-end: #f59e0b;
-	--nav-btn-text: #111827;
-	--nav-btn-hover-text: #111827;
-	--surface-card: #e5e7eb;
-	--surface-card-border: #cbd5e1;
+main table.min-w-full thead tr {
+  background-color: var(--ink);
 }
-
-html[data-theme="steel-orange"] {
-	--page-grad-start: #f8fafc;
-	--page-grad-mid: #e2e8f0;
-	--page-grad-end: #cbd5e1;
-	--header-grad-start: #1d4ed8;
-	--header-grad-mid: #2563eb;
-	--header-grad-end: #3b82f6;
-	--footer-grad-start: #1d4ed8;
-	--footer-grad-mid: #2563eb;
-	--footer-grad-end: #3b82f6;
-	--header-link-hover: #fb923c;
-	--theme-chip-border: #fb923c;
-	--nav-btn-start: #bae6fd;
-	--nav-btn-end: #fdba74;
-	--nav-btn-text: #0f172a;
-	--nav-btn-hover-text: #ffffff;
-	--surface-card: #f8fafc;
-	--surface-card-border: #cbd5e1;
+main table.min-w-full th {
+  padding: 0.75rem 1rem;
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-bottom: 3px solid var(--lime);
+  text-align: left;
 }
-
-.theme-page-bg {
-	background-image: linear-gradient(
-		to bottom right,
-		var(--page-grad-start),
-		var(--page-grad-mid),
-		var(--page-grad-end)
-	);
+main table.min-w-full td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--line);
+  color: #2a2e35;
+  line-height: 1.5;
 }
-
-.theme-header-bg {
-	background-image: linear-gradient(
-		to right,
-		var(--header-grad-start),
-		var(--header-grad-mid),
-		var(--header-grad-end)
-	);
+main table.min-w-full tbody tr:nth-child(even) {
+  background-color: #f8faf6;
 }
-
-.theme-footer-bg {
-	background-image: linear-gradient(
-		to right,
-		var(--footer-grad-start),
-		var(--footer-grad-mid),
-		var(--footer-grad-end)
-	);
+main table.min-w-full tbody tr:hover {
+  background-color: #f1f7e8;
 }
-
-.theme-contact a:hover,
-.theme-footer-links a:hover {
-	color: var(--header-link-hover);
-}
-
-.theme-switcher {
-	border: 1px solid var(--theme-chip-border);
-}
-
-.tpm-nav-btn {
-	color: var(--nav-btn-text);
-	background-image: linear-gradient(to right, var(--nav-btn-start), var(--nav-btn-end));
-}
-
-.tpm-nav-btn:hover {
-	color: var(--nav-btn-hover-text);
-	filter: saturate(1.05) brightness(0.98);
-}
-
-.tpm-surface-card {
-	background-color: var(--surface-card);
-	border-color: var(--surface-card-border);
-}
-
-/* Launch polish: normalize product-table visual rhythm across category pages. */
-main table.min-w-full.border-slate-200 {
-	border-color: #93c5fd;
-	background-color: #ffffff;
-	border-radius: 0.75rem;
-	overflow: hidden;
-	box-shadow: 0 8px 22px rgba(30, 58, 138, 0.08);
-}
-
-main table.min-w-full.border-slate-200 thead tr {
-	background-color: #dbeafe;
-}
-
-main table.min-w-full.border-slate-200 th {
-	padding: 0.75rem 1rem;
-	border-bottom: 1px solid #93c5fd;
-	color: #1e3a8a;
-	font-weight: 700;
-	letter-spacing: 0.01em;
-}
-
-main table.min-w-full.border-slate-200 td {
-	padding: 0.75rem 1rem;
-	border-bottom: 1px solid #cbd5e1;
-	color: #1f2937;
-	line-height: 1.5;
-}
-
-main table.min-w-full.border-slate-200 tbody tr:nth-child(even) {
-	background-color: #f8fafc;
-}
-
-main table.min-w-full.border-slate-200 tbody tr:hover {
-	background-color: #eff6ff;
-}
-
-main table.min-w-full.border-slate-200 tbody tr:last-child td {
-	border-bottom: none;
+main table.min-w-full tbody tr:last-child td {
+  border-bottom: none;
 }

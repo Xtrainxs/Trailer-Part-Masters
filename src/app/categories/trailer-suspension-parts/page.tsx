@@ -1,4 +1,4 @@
-import CategoryCard from "@/components/category-card";
+﻿import CategoryCard from "@/components/category-card";
 
 const subcategories = [
   { name: "Trailer Leaf Springs", description: "Double-eye, slipper, parabolic, and heavy-duty multi-leaf springs.", href: "/categories/trailer-suspension-parts/trailer-leaf-springs" },
@@ -6,7 +6,7 @@ const subcategories = [
   { name: "Trailer Equalizers", description: "Cast and rubber equalizers for tandem and triple-axle trailers.", href: "/categories/trailer-suspension-parts/trailer-equalizers" },
   { name: "Shackles & Bushings", description: "Standard, HD, and wet-bolt shackles; nylon, bronze, steel, rubber bushings.", href: "/categories/trailer-suspension-parts/shackles-bushings" },
   { name: "U-Bolt Kits", description: "Round and square U-bolt kits by tube size and bolt diameter.", href: "/categories/trailer-suspension-parts/u-bolt-kits" },
-  { name: "Spring Seats", description: "Weld-on spring seats in 1¾\", 2 3/8\", and 3\" axle sizes.", href: "/categories/trailer-suspension-parts/spring-seats" },
+  { name: "Spring Seats", description: "Weld-on spring seats in 1Â¾\", 2 3/8\", and 3\" axle sizes.", href: "/categories/trailer-suspension-parts/spring-seats" },
   { name: "Suspension Fasteners", description: "Equalizer bolts, shackle bolts, lock nuts, and washers.", href: "/categories/trailer-suspension-parts/suspension-fasteners" },
 ];
 
@@ -15,7 +15,7 @@ export const metadata = { title: 'Trailer Suspension Parts' };
 export default function TrailerSuspensionPartsPage() {
   return (
     <main className="max-w-6xl mx-auto py-12 px-6">
-      <h1 className="text-3xl sm:text-4xl font-bold mb-3 text-[#05203C]">
+      <h1 className="text-3xl sm:text-4xl font-bold mb-3 text-ink">
         Trailer Suspension Parts
       </h1>
       <p className="text-base sm:text-lg text-slate-600 mb-10">

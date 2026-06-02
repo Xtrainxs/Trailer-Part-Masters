@@ -1,9 +1,9 @@
-export const metadata = { title: 'Trailer Equalizers' };
+﻿export const metadata = { title: 'Trailer Equalizers' };
 
 export default function TrailerEqualizersPage() {
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">
-      <h1 className="text-2xl font-bold mb-8 text-[#05203C]">Trailer Equalizers</h1>
+      <h1 className="text-2xl font-bold mb-8 text-ink">Trailer Equalizers</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
         {["1.png", "2.png", "3.png", "4.png", "5.png"].map((img, idx) => (
           <div

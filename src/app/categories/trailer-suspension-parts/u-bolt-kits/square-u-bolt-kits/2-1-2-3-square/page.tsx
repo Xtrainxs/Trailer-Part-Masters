@@ -1,12 +1,12 @@
-import RequestQuoteCTA from '@/components/request-quote-cta';
+﻿import RequestQuoteCTA from '@/components/request-quote-cta';
 
-export const metadata = { title: '2 ½\\"–3\\" Square U-bolt Kit' };
+export const metadata = { title: '2 Â½\\"â€“3\\" Square U-bolt Kit' };
 
 export default function Square2123Page() {
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">
-      <h1 className="text-2xl font-bold mb-4 text-[#05203C]">2 ½"–3" Square U-bolt Kit</h1>
-      <p className="text-lg text-gray-700 mb-6">Kit for 2 ½"–3" square axle. Includes U-bolts, nuts, and tie plates.</p>
+      <h1 className="text-2xl font-bold mb-4 text-ink">2 Â½"â€“3" Square U-bolt Kit</h1>
+      <p className="text-lg text-gray-700 mb-6">Kit for 2 Â½"â€“3" square axle. Includes U-bolts, nuts, and tie plates.</p>
       <div className="flex flex-wrap gap-4 mb-8">
         {[
           "Square U-Bolt Kits - 1.png",
@@ -26,7 +26,7 @@ export default function Square2123Page() {
           </div>
         ))}
       </div>
-      <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Kit Specifications</h2>
+      <h2 className="text-xl font-semibold mb-2 mt-8 text-ink">Kit Specifications</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white border border-slate-200 rounded-lg mb-8">
           <thead>
@@ -40,8 +40,8 @@ export default function Square2123Page() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-UBK-2.5-3SQ</td>
-              <td className="py-2 px-4 border-b">2 ½"–3" x 6 ¼" x 7/16"</td>
+              <td className="py-2 px-4 border-b">TPM-UBK-2.5-3SQ</td>
+              <td className="py-2 px-4 border-b">2 Â½"â€“3" x 6 Â¼" x 7/16"</td>
               <td className="py-2 px-4 border-b">Steel</td>
               <td className="py-2 px-4 border-b">Zinc</td>
               <td className="py-2 px-4 border-b">4 U-bolts, 8 nuts, 2 tie plates</td>
@@ -49,7 +49,7 @@ export default function Square2123Page() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel={"2 ½\"–3\" Square U-bolt Kit"} />
+      <RequestQuoteCTA partLabel={"2 Â½\"â€“3\" Square U-bolt Kit"} />
     </main>
   );
 }

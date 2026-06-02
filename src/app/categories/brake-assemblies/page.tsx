@@ -1,4 +1,4 @@
-import CategoryCard from "@/components/category-card";
+﻿import CategoryCard from "@/components/category-card";
 
 const subcategories = [
   { name: '10" Hydraulic Trailer Brakes', href: "/categories/brake-assemblies/10in-hydraulic" },
@@ -12,7 +12,7 @@ export const metadata = { title: 'Brake Assemblies' };
 export default function BrakeAssembliesPage() {
   return (
     <main className="max-w-6xl mx-auto py-12 px-6">
-      <h1 className="text-3xl sm:text-4xl font-bold mb-3 text-[#05203C]">
+      <h1 className="text-3xl sm:text-4xl font-bold mb-3 text-ink">
         Brake Assemblies
       </h1>
       <p className="text-base sm:text-lg text-slate-600 mb-10">

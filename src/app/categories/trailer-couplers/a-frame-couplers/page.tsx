@@ -1,4 +1,4 @@
-import Link from 'next/link';
+﻿import Link from 'next/link';
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export const metadata = { title: 'A-Frame Couplers' };
@@ -25,7 +25,7 @@ export default function AFrameCouplers() {
           </div>
         ))}
       </div>
-      <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Available A-Frame Couplers</h2>
+      <h2 className="text-xl font-semibold mb-2 mt-8 text-ink">Available A-Frame Couplers</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white rounded-lg shadow">
           <thead>
@@ -39,21 +39,21 @@ export default function AFrameCouplers() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-AFC-2000</td>
+              <td className="py-2 px-4 border-b">TPM-AFC-2000</td>
               <td className="py-2 px-4 border-b">Standard A-Frame</td>
               <td className="py-2 px-4 border-b">2"</td>
               <td className="py-2 px-4 border-b">2,000</td>
               <td className="py-2 px-4 border-b">Black Powder Coat</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-AFC-5000</td>
+              <td className="py-2 px-4 border-b">TPM-AFC-5000</td>
               <td className="py-2 px-4 border-b">Heavy Duty A-Frame</td>
               <td className="py-2 px-4 border-b">2-5/16"</td>
               <td className="py-2 px-4 border-b">5,000</td>
               <td className="py-2 px-4 border-b">Zinc</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-AFC-7000</td>
+              <td className="py-2 px-4 border-b">TPM-AFC-7000</td>
               <td className="py-2 px-4 border-b">HD A-Frame</td>
               <td className="py-2 px-4 border-b">2-5/16"</td>
               <td className="py-2 px-4 border-b">7,000</td>
