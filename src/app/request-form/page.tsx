@@ -62,12 +62,12 @@ export default function RequestFormPage({ searchParams }: PageProps) {
       </div>
 
       <form
-        action="https://formspree.io/f/xgoqdybp"
+        action="https://formspree.io/f/xnjyavqd"
         method="POST"
         className="grid grid-cols-1 sm:grid-cols-2 gap-6"
       >
         <input type="hidden" name="_subject" value="New quote request from Trailer Part Masters website" />
-        <input type="hidden" name="_next" value="https://trailer-part-masters.vercel.app/request-form/thanks" />
+        <input type="hidden" name="_next" value="https://trailerpartmasters.vercel.app/request-form/thanks" />
         <input
           type="text"
           name="_gotcha"

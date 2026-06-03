@@ -29,11 +29,9 @@ separate, independent projects/repos that happen to share a layout and component
 - **Email:** trailerpartmasters@shaw.ca
 - **Address:** Taralake Manor NE, Calgary, Alberta, Canada T3J 0N1
 
-## Items to review before going live
-- **Logo:** `public/logo.png` is still the Best Trailer Parts logo — replace with the
-  Trailer Part Masters logo.
-- **Quote form endpoint:** `src/app/request-form/page.tsx` posts to the same Formspree
-  endpoint (`/f/xgoqdybp`) as Best Trailer Parts. Create a dedicated Formspree form for
-  Trailer Part Masters and swap the `action` URL so submissions don't mix.
-- **Production URL:** metadata assumes `https://trailer-part-masters.vercel.app` — update
-  if the Vercel project gets a different domain.
+## Deployment
+- **Live URL:** https://trailerpartmasters.vercel.app (Vercel, auto-deploys from `main`).
+- **Quote form:** `src/app/request-form/page.tsx` posts to the Trailer Part Masters
+  Formspree form (`/f/xnjyavqd`) and redirects to `/request-form/thanks` on success.
+- **Logo:** `public/logo.png` is the Trailer Part Masters badge (background recolored to
+  the charcoal header tone). Swap in a transparent PNG if a different host surface needs it.

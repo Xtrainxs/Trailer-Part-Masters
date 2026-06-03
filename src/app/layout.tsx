@@ -3,7 +3,7 @@ import { ReactNode } from 'react';
 import Breadcrumbs from '@/components/breadcrumbs';
 
 export const metadata = {
-  metadataBase: new URL('https://trailer-part-masters.vercel.app'),
+  metadataBase: new URL('https://trailerpartmasters.vercel.app'),
   title: {
     default: 'Trailer Part Masters — Master Every Part of the Haul',
     template: '%s | Trailer Part Masters',
@@ -30,7 +30,7 @@ export const metadata = {
     title: 'Trailer Part Masters — Master Every Part of the Haul',
     description:
       'Trailer components sourced directly from trusted global manufacturers. 25+ years of importing expertise.',
-    url: 'https://trailer-part-masters.vercel.app',
+    url: 'https://trailerpartmasters.vercel.app',
     siteName: 'Trailer Part Masters',
     images: [{ url: '/logo.png', width: 1200, height: 630, alt: 'Trailer Part Masters' }],
     locale: 'en_CA',
