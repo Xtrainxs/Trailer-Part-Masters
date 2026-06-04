@@ -7,6 +7,13 @@ export default function BrakeDrum7in2000_5x45() {
     <div className="max-w-4xl mx-auto py-12 px-4">
       <h1 className="text-4xl font-bold mb-4">7" Brake Drum Kit for 2,000 lb. Axles | 5 on 4.5" Bolt Pattern</h1>
       <p className="text-lg text-gray-700 mb-6">High-quality brake drum kit for 2,000 lb axles with a 5x4.5 bolt pattern.</p>
+      <div className="mb-8 bg-slate-50 rounded-lg shadow p-4 flex justify-center">
+        <img
+          src="/images/Brake%20Drums/7%20Inch%20Brake%20Drum%20Kit/Kit.png"
+          alt="7 inch brake drum kit"
+          className="w-[70%] max-w-3xl h-auto object-contain brightness-110 bg-slate-50 rounded"
+        />
+      </div>
       <h2 className="text-xl font-semibold mb-2 mt-8 text-ink">Kit Components</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white border border-slate-200 rounded-lg mb-8">
