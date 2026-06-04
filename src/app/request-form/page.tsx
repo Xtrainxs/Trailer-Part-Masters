@@ -27,18 +27,35 @@ export default function RequestFormPage({ searchParams }: PageProps) {
           </span>
         </div>
         <p className="text-xs sm:text-sm font-semibold tracking-[0.25em] uppercase text-lime-dark mb-3">
-          Request a Quote
+          Wholesale Quote Request
         </p>
         <h1
           className="font-display uppercase text-4xl sm:text-5xl font-bold text-ink tracking-tight"
         >
-          Request Parts / Quote
+          Request a Wholesale Quote
         </h1>
         <p className="mt-4 max-w-xl mx-auto text-base text-slate-600 leading-relaxed">
-          Tell us what you need and we&apos;ll match you with the right trailer parts
-          at the best price.
+          We supply trailer manufacturers, wholesalers, and stockists across Canada
+          and the USA. Send us your parts list and quantities &mdash; we&apos;ll
+          respond with factory-direct pricing within 1&ndash;2 business days.
         </p>
       </header>
+
+      {/* B2B trust bar */}
+      <section className="bg-ink text-white rounded-sm px-6 py-5 mb-10 grid grid-cols-1 sm:grid-cols-3 gap-4 text-center text-sm">
+        <div>
+          <p className="font-display uppercase font-bold text-base text-lime">25+ Years</p>
+          <p className="text-slate-300">Importing direct from manufacturers</p>
+        </div>
+        <div>
+          <p className="font-display uppercase font-bold text-base text-lime">Min. Order CAD $5,000</p>
+          <p className="text-slate-300">Factory-direct pricing at scale</p>
+        </div>
+        <div>
+          <p className="font-display uppercase font-bold text-base text-lime">Canada &amp; USA</p>
+          <p className="text-slate-300">Manufacturers &amp; stockists served</p>
+        </div>
+      </section>
 
       <div className="border-y border-slate-200 py-6 mb-12 grid grid-cols-1 sm:grid-cols-3 gap-6 text-center text-sm">
         <div>
@@ -82,8 +99,8 @@ export default function RequestFormPage({ searchParams }: PageProps) {
           <input id="name" name="name" type="text" placeholder="Your full name" required className={inputClass} />
         </div>
         <div>
-          <label htmlFor="company" className={labelClass}>Company</label>
-          <input id="company" name="company" type="text" placeholder="Optional" className={inputClass} />
+          <label htmlFor="company" className={labelClass}>Company <span className="text-red-500">*</span></label>
+          <input id="company" name="company" type="text" placeholder="Your company name" required className={inputClass} />
         </div>
         <div>
           <label htmlFor="email" className={labelClass}>Email</label>
@@ -114,7 +131,8 @@ export default function RequestFormPage({ searchParams }: PageProps) {
         </div>
         <div>
           <label htmlFor="quantity" className={labelClass}>Estimated Quantity</label>
-          <input id="quantity" name="quantity" type="number" min="1" placeholder="e.g. 10" className={inputClass} />
+          <input id="quantity" name="quantity" type="number" min="1" placeholder="e.g. 50" className={inputClass} />
+          <p className="text-xs text-slate-500 mt-1">Minimum order value: CAD $5,000.</p>
         </div>
         <div className="sm:col-span-2">
           <label htmlFor="details" className={labelClass}>Part Details / Description</label>
@@ -166,10 +184,11 @@ export default function RequestFormPage({ searchParams }: PageProps) {
               2
             </span>
             <div className="flex-1">
-              <p className="font-semibold text-ink">We match it to a supplier</p>
+              <p className="font-semibold text-ink">We match it to a supplier and quote</p>
               <p className="text-sm text-slate-600 mt-0.5 leading-relaxed">
-                We check stock, lead time, and pricing across our vetted manufacturer
-                network.
+                We check pricing, lead time, and availability across our vetted
+                manufacturer network and send you a landed-cost quote within
+                1&ndash;2 business days.
               </p>
             </div>
           </li>
@@ -178,9 +197,12 @@ export default function RequestFormPage({ searchParams }: PageProps) {
               3
             </span>
             <div className="flex-1">
-              <p className="font-semibold text-ink">You receive a quote</p>
+              <p className="font-semibold text-ink">Order confirmed &rarr; shipment arranged</p>
               <p className="text-sm text-slate-600 mt-0.5 leading-relaxed">
-                Within 1&ndash;2 business days, by email with all the details.
+                Once you approve the quote, we place the order with the factory.
+                Most shipments travel by ocean freight and arrive in
+                6&ndash;10 weeks from order confirmation. We confirm the exact
+                timeline in your quote.
               </p>
             </div>
           </li>

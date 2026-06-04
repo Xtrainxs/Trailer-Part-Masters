@@ -14,16 +14,27 @@ export default function ShippingPolicyPage() {
         <h1
           className="font-display uppercase text-4xl sm:text-5xl font-bold text-ink tracking-tight"
         >
-          Shipping Policy
+          Shipping &amp; Delivery
         </h1>
         <p className="mt-5 text-slate-600 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto">
-          Trailer Part Masters works directly with manufacturers in China and India, and
-          most orders ship from those suppliers straight to your door. This gives you
-          importer pricing without the middleman markup &mdash; but it does mean
-          transit times and customs work differently than buying from a local
-          retailer. This page covers what to expect.
+          Trailer Part Masters sources direct from manufacturers in China and India.
+          Orders ship from the factory straight to your facility &mdash; factory-direct
+          pricing, but ocean-freight lead times. This page sets clear expectations so
+          you can plan your inventory accordingly.
         </p>
       </header>
+
+      {/* Prominent timeline callout for B2B planners */}
+      <div className="bg-ink text-white rounded-sm p-6 sm:p-8 mb-12 text-center">
+        <p className="text-xs font-display uppercase tracking-widest text-lime mb-2">Typical end-to-end timeline</p>
+        <p className="font-display uppercase text-4xl sm:text-5xl font-bold text-lime mb-2">6 – 10 Weeks</p>
+        <p className="text-slate-300 text-sm max-w-lg mx-auto leading-relaxed">
+          From order confirmation to delivery at your facility (ocean freight). Air
+          freight available for smaller or urgent shipments at higher cost.
+          Production and consolidation time at the factory is included in this
+          estimate &mdash; exact timing confirmed in your quote.
+        </p>
+      </div>
 
       <article className="space-y-12 text-slate-800 leading-relaxed">
         <section>

@@ -10,7 +10,10 @@ const subcategories = [
   { name: "Rubber Bushings", description: "Vibration-dampening rubber bushings for smooth ride quality.", href: "/categories/trailer-suspension-parts/shackles-bushings/rubber-bushings" },
 ];
 
-export const metadata = { title: 'Shackles &amp; Bushings' };
+export const metadata = {
+  title: 'Shackles &amp; Bushings',
+  description: 'Wholesale Shackles &amp; Bushings sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Min. order CAD $5,000. Request a quote within 1-2 business days.',
+};
 
 export default function ShacklesBushingsPage() {
   return (
@@ -30,3 +33,4 @@ export default function ShacklesBushingsPage() {
     </main>
   );
 }
+

@@ -1,7 +1,10 @@
 ﻿import React from "react";
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
-export const metadata = { title: 'EQ-E3 Equalizer' };
+export const metadata = {
+  title: 'EQ-E3 Equalizer',
+  description: 'Wholesale EQ-E3 Equalizer sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Min. order CAD $5,000. Request a quote within 1-2 business days.',
+};
 
 export default function EQE3Page() {
   return (
@@ -45,3 +48,4 @@ export default function EQE3Page() {
     </main>
   );
 }
+

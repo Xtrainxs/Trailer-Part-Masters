@@ -1,7 +1,10 @@
 ﻿import RequestQuoteCTA from '@/components/request-quote-cta';
 import RangeDisclaimer from '@/components/range-disclaimer';
 
-export const metadata = { title: 'License Plate Lights' };
+export const metadata = {
+  title: 'License Plate Lights',
+  description: 'Wholesale License Plate Lights sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Min. order CAD $5,000. Request a quote within 1-2 business days.',
+};
 
 export default function LicensePlateLights() {
   return (
@@ -75,3 +78,4 @@ export default function LicensePlateLights() {
     </main>
   );
 }
+

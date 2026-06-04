@@ -1,6 +1,9 @@
 ﻿import RequestQuoteCTA from '@/components/request-quote-cta';
 
-export const metadata = { title: 'Incandescent Tail Lights' };
+export const metadata = {
+  title: 'Incandescent Tail Lights',
+  description: 'Wholesale Incandescent Tail Lights sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Min. order CAD $5,000. Request a quote within 1-2 business days.',
+};
 
 export default function IncandescentTailLights() {
   return (
@@ -44,3 +47,4 @@ export default function IncandescentTailLights() {
     </main>
   );
 }
+

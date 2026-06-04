@@ -1,7 +1,10 @@
 ﻿import React from "react";
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
-export const metadata = { title: 'Standard Shackles' };
+export const metadata = {
+  title: 'Standard Shackles',
+  description: 'Wholesale Standard Shackles sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Min. order CAD $5,000. Request a quote within 1-2 business days.',
+};
 
 export default function StandardShacklesPage() {
   return (
@@ -79,3 +82,4 @@ export default function StandardShacklesPage() {
     </main>
   );
 }
+

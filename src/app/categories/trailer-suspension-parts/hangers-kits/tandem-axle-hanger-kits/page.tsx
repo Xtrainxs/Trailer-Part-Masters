@@ -1,7 +1,10 @@
 ﻿import React from "react";
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
-export const metadata = { title: 'Tandem-Axle Hanger Kits' };
+export const metadata = {
+  title: 'Tandem-Axle Hanger Kits',
+  description: 'Wholesale Tandem-Axle Hanger Kits sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Min. order CAD $5,000. Request a quote within 1-2 business days.',
+};
 
 export default function TandemAxleHangerKitsPage() {
   return (
@@ -71,3 +74,4 @@ export default function TandemAxleHangerKitsPage() {
     </main>
   );
 }
+

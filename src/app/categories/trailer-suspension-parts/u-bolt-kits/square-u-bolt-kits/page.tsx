@@ -6,7 +6,10 @@ const subcategories = [
   { name: '2 Â½"â€“3" square', description: 'U-bolt kits for 2Â½\" to 3\" heavy-duty square axles.', href: "/categories/trailer-suspension-parts/u-bolt-kits/square-u-bolt-kits/2-1-2-3-square" },
 ];
 
-export const metadata = { title: 'Square U-Bolt Kits' };
+export const metadata = {
+  title: 'Square U-Bolt Kits',
+  description: 'Wholesale Square U-Bolt Kits sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Min. order CAD $5,000. Request a quote within 1-2 business days.',
+};
 
 export default function SquareUBoltKitsPage() {
   return (
@@ -25,3 +28,4 @@ export default function SquareUBoltKitsPage() {
     </main>
   );
 }
+

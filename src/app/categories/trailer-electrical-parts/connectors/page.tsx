@@ -1,6 +1,9 @@
 ﻿import RequestQuoteCTA from '@/components/request-quote-cta';
 
-export const metadata = { title: 'Trailer Connectors' };
+export const metadata = {
+  title: 'Trailer Connectors',
+  description: 'Wholesale Trailer Connectors sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Min. order CAD $5,000. Request a quote within 1-2 business days.',
+};
 
 export default function Connectors() {
   return (
@@ -77,3 +80,4 @@ export default function Connectors() {
     </main>
   );
 }
+

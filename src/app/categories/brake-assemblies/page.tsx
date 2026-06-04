@@ -1,5 +1,10 @@
 ﻿import CategoryCard from "@/components/category-card";
 
+export const metadata = {
+  title: 'Wholesale Trailer Brake Assemblies — 10" & 12" Electric & Hydraulic',
+  description: 'Wholesale 10" and 12" electric and hydraulic trailer brake assemblies sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Min. order CAD $5,000.',
+};
+
 const subcategories = [
   { name: '10" Hydraulic Trailer Brakes', href: "/categories/brake-assemblies/10in-hydraulic" },
   { name: '10" Electric Trailer Brakes', href: "/categories/brake-assemblies/10in-electric" },
@@ -7,7 +12,6 @@ const subcategories = [
   { name: '12" Electric Trailer Brakes', href: "/categories/brake-assemblies/12in-electric" },
 ];
 
-export const metadata = { title: 'Brake Assemblies' };
 
 export default function BrakeAssembliesPage() {
   return (
@@ -26,3 +30,5 @@ export default function BrakeAssembliesPage() {
     </main>
   );
 }
+
+

@@ -1,7 +1,10 @@
 ﻿import React from "react";
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
-export const metadata = { title: 'Steel Bushings' };
+export const metadata = {
+  title: 'Steel Bushings',
+  description: 'Wholesale Steel Bushings sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Min. order CAD $5,000. Request a quote within 1-2 business days.',
+};
 
 export default function SteelBushingsPage() {
   return (
@@ -59,3 +62,4 @@ export default function SteelBushingsPage() {
     </main>
   );
 }
+

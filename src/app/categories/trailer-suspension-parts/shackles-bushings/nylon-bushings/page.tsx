@@ -2,7 +2,10 @@
 import RangeDisclaimer from '@/components/range-disclaimer';
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
-export const metadata = { title: 'Nylon Bushings' };
+export const metadata = {
+  title: 'Nylon Bushings',
+  description: 'Wholesale Nylon Bushings sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Min. order CAD $5,000. Request a quote within 1-2 business days.',
+};
 
 export default function NylonBushingsPage() {
   return (
@@ -66,3 +69,4 @@ export default function NylonBushingsPage() {
     </main>
   );
 }
+

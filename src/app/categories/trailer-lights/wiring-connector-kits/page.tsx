@@ -1,6 +1,9 @@
 ﻿import RequestQuoteCTA from '@/components/request-quote-cta';
 
-export const metadata = { title: 'Wiring & Connector Kits' };
+export const metadata = {
+  title: 'Wiring & Connector Kits',
+  description: 'Wholesale Wiring & Connector Kits sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Min. order CAD $5,000. Request a quote within 1-2 business days.',
+};
 
 export default function WiringConnectorKits() {
   return (
@@ -41,3 +44,4 @@ export default function WiringConnectorKits() {
     </main>
   );
 }
+

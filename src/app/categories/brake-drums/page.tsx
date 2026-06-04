@@ -1,5 +1,10 @@
 ﻿import CategoryCard from "@/components/category-card";
 
+export const metadata = {
+  title: 'Wholesale Trailer Brake Drums — 2,000 to 7,000 lb. Axles',
+  description: 'Wholesale trailer brake drum kits for 2,000 to 7,000 lb. axles in all common bolt patterns. 7", 10", and 12" kits sourced direct from manufacturer. Min. order CAD $5,000.',
+};
+
 const subcategories = [
   { name: '7" Brake Drum Kit â€” 2,000 lb. Axles, 5 on 4.5"', href: "/categories/brake-drums/7in-2000-5x45" },
   { name: '10" Brake Drum Kit â€” 3,500 lb. Axles, 5 on 4.5"', href: "/categories/brake-drums/10in-3500-5x45" },
@@ -10,7 +15,6 @@ const subcategories = [
   { name: '12" Brake Drum Kit â€” 7,000 lb. Axles, 8 on 6.5"', href: "/categories/brake-drums/12in-7000-8x65" },
 ];
 
-export const metadata = { title: 'Brake Drums' };
 
 export default function BrakeDrumsPage() {
   return (
@@ -29,3 +33,5 @@ export default function BrakeDrumsPage() {
     </main>
   );
 }
+
+

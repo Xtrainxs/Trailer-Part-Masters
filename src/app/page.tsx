@@ -28,7 +28,7 @@ export default function Home() {
         <div className="absolute inset-0 opacity-[0.04] hazard-stripe" aria-hidden="true" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28">
           <div className="max-w-3xl">
-            <span className="eyebrow">Trailer Components · Direct from Manufacturer</span>
+            <span className="eyebrow">Wholesale Trailer Components · Direct from Manufacturer</span>
             <h1 className="mt-4 font-display uppercase font-bold leading-[0.95] tracking-tight text-5xl sm:text-6xl lg:text-7xl">
               Built for the
               <span className="text-lime"> long haul.</span>
@@ -37,16 +37,22 @@ export default function Home() {
               Master Every Part of the Haul
             </p>
             <p className="mt-5 max-w-xl text-lg text-slate-300 leading-relaxed">
-              Suspension, brakes, lights, jacks, couplers and hardware — sourced
-              directly from the factories that supply North America&apos;s
-              resellers, and passed to you without the middleman markup.
+              Wholesale suspension, brakes, lights, jacks, couplers and hardware
+              sourced direct from the factories — no distributor markup. Serving
+              trailer manufacturers and stockists across Canada and the USA since 2001.
             </p>
             <div className="mt-9 flex flex-col sm:flex-row gap-4">
-              <a href="/categories" className="btn-lime">Browse the Catalog</a>
-              <a href="/request-form" className="btn-outline border-white text-white hover:bg-white hover:text-ink">
-                Request a Quote
+              <a href="/request-form" className="btn-lime">Request a Wholesale Quote</a>
+              <a href="/categories" className="btn-outline border-white text-white hover:bg-white hover:text-ink">
+                Browse the Catalog
+              </a>
+              <a href="tel:+14038755074" className="btn-outline border-lime text-lime hover:bg-lime hover:text-ink">
+                Call +1 403-875-5074
               </a>
             </div>
+            <p className="mt-4 text-sm text-slate-400">
+              Minimum order CAD $5,000 &middot; Quote within 1&ndash;2 business days
+            </p>
           </div>
         </div>
 
@@ -69,7 +75,7 @@ export default function Home() {
             { stat: '25+', label: 'Years importing expertise' },
             { stat: '10', label: 'Major part categories' },
             { stat: '3', label: 'Countries served' },
-            { stat: '1–2', label: 'Day quote turnaround' },
+            { stat: 'CAD $5K', label: 'Minimum order' },
           ].map((s) => (
             <div key={s.label} className="py-8 px-4 text-center">
               <p className="font-display text-4xl sm:text-5xl text-ink">

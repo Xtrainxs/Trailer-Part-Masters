@@ -7,7 +7,10 @@ const subcategories = [
   { name: '5/8" (extra heavy duty)', description: 'Extra heavy-duty 5/8\" U-bolts for 10,000 lb+ applications.', href: "/categories/trailer-suspension-parts/u-bolt-kits/bolt-diameters/5-8-extra-heavy-duty" },
 ];
 
-export const metadata = { title: 'Bolt Diameters' };
+export const metadata = {
+  title: 'Bolt Diameters',
+  description: 'Wholesale Bolt Diameters sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Min. order CAD $5,000. Request a quote within 1-2 business days.',
+};
 
 export default function BoltDiametersPage() {
   return (
@@ -26,3 +29,4 @@ export default function BoltDiametersPage() {
     </main>
   );
 }
+

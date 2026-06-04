@@ -1,7 +1,10 @@
 ﻿import React from "react";
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
-export const metadata = { title: 'Heavy Duty Multi-Leaf Springs' };
+export const metadata = {
+  title: 'Heavy Duty Multi-Leaf Springs',
+  description: 'Wholesale Heavy Duty Multi-Leaf Springs sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Min. order CAD $5,000. Request a quote within 1-2 business days.',
+};
 
 export default function HeavyDutyMultiLeafSpringsPage() {
   return (
@@ -63,3 +66,4 @@ export default function HeavyDutyMultiLeafSpringsPage() {
     </main>
   );
 }
+

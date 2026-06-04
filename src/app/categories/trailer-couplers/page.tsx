@@ -1,5 +1,10 @@
 ﻿import CategoryCard from "@/components/category-card";
 
+export const metadata = {
+  title: 'Wholesale Trailer Couplers — A-Frame, Gooseneck, Channel & Adjustable',
+  description: 'Wholesale trailer couplers: straight tongue, A-frame, channel style, gooseneck, and adjustable. Factory-direct pricing for trailer manufacturers and stockists in Canada and the USA. Min. order CAD $5,000.',
+};
+
 const subcategories = [
   { name: "Straight Tongue Couplers", description: "1â…ž\" and 2\" ball couplers for straight-tongue trailers up to 5,000 lb.", href: "/categories/trailer-couplers/straight-tongue-couplers" },
   { name: "A-Frame Couplers", description: "2\" and 2 5/16\" A-frame couplers for light to medium trailers.", href: "/categories/trailer-couplers/a-frame-couplers" },
@@ -8,7 +13,6 @@ const subcategories = [
   { name: "Adjustable Couplers", description: "Height-adjustable couplers for variable hitch ball heights.", href: "/categories/trailer-couplers/adjustable-couplers" },
 ];
 
-export const metadata = { title: 'Trailer Couplers' };
 
 export default function TrailerCouplersPage() {
   return (
@@ -28,3 +32,5 @@ export default function TrailerCouplersPage() {
     </main>
   );
 }
+
+

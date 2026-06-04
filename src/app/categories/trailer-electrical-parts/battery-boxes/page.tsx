@@ -1,6 +1,9 @@
 ﻿import RequestQuoteCTA from '@/components/request-quote-cta';
 
-export const metadata = { title: 'Battery Boxes' };
+export const metadata = {
+  title: 'Battery Boxes',
+  description: 'Wholesale Battery Boxes sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Min. order CAD $5,000. Request a quote within 1-2 business days.',
+};
 
 export default function BatteryBoxes() {
   return (
@@ -41,3 +44,4 @@ export default function BatteryBoxes() {
     </main>
   );
 }
+

@@ -1,7 +1,10 @@
 ﻿import Link from 'next/link';
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
-export const metadata = { title: 'Straight Tongue Couplers' };
+export const metadata = {
+  title: 'Straight Tongue Couplers',
+  description: 'Wholesale Straight Tongue Couplers sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Min. order CAD $5,000. Request a quote within 1-2 business days.',
+};
 
 export default function StraightTongueCouplers() {
   return (

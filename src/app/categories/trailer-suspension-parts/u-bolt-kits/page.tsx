@@ -6,7 +6,10 @@ const subcategories = [
   { name: "Bolt Diameters", description: "U-bolt kits indexed by diameter from 3/8\" light-duty to 5/8\" XHD.", href: "/categories/trailer-suspension-parts/u-bolt-kits/bolt-diameters" },
 ];
 
-export const metadata = { title: 'U-Bolt Kits' };
+export const metadata = {
+  title: 'U-Bolt Kits',
+  description: 'Wholesale U-Bolt Kits sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Min. order CAD $5,000. Request a quote within 1-2 business days.',
+};
 
 export default function UBoltKitsPage() {
   return (
@@ -24,3 +27,4 @@ export default function UBoltKitsPage() {
     </main>
   );
 }
+

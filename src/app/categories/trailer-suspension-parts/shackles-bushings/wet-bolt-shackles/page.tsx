@@ -1,7 +1,10 @@
 ﻿import React from "react";
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
-export const metadata = { title: 'Wet-Bolt Shackles' };
+export const metadata = {
+  title: 'Wet-Bolt Shackles',
+  description: 'Wholesale Wet-Bolt Shackles sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Min. order CAD $5,000. Request a quote within 1-2 business days.',
+};
 
 export default function WetBoltShacklesPage() {
   return (
@@ -45,3 +48,4 @@ export default function WetBoltShacklesPage() {
     </main>
   );
 }
+

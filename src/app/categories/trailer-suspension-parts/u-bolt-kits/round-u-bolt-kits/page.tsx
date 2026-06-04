@@ -9,7 +9,10 @@ const subcategories = [
   { name: '5" tube (10kâ€“12k)', description: 'For 10,000â€“12,000 lb axles with 5\" round tube.', href: "/categories/trailer-suspension-parts/u-bolt-kits/round-u-bolt-kits/5-tube-10k-12k" },
 ];
 
-export const metadata = { title: 'Round U-Bolt Kits' };
+export const metadata = {
+  title: 'Round U-Bolt Kits',
+  description: 'Wholesale Round U-Bolt Kits sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Min. order CAD $5,000. Request a quote within 1-2 business days.',
+};
 
 export default function RoundUBoltKitsPage() {
   return (
@@ -28,3 +31,4 @@ export default function RoundUBoltKitsPage() {
     </main>
   );
 }
+

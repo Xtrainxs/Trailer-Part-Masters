@@ -1,5 +1,10 @@
 ﻿import CategoryCard from "@/components/category-card";
 
+export const metadata = {
+  title: 'Wholesale Trailer Idler Hubs & Bearing Kits — 2,000 to 7,000 lb. Axles',
+  description: 'Wholesale trailer idler hub and bearing kits for 2,000 to 7,000 lb. axles in all standard bolt patterns. Direct-from-manufacturer pricing for trailer builders and distributors. Min. order CAD $5,000.',
+};
+
 const subcategories = [
   { name: 'Idler Hub & Bearing Kit â€” 2,000 lb. Axles, 4 on 4"', href: "/categories/idler-hubs/idler-kit-2000-4x4" },
   { name: 'Idler Hub & Bearing Kit â€” 2,000 lb. Axles, 4 on 5"', href: "/categories/idler-hubs/idler-kit-2000-4x5" },
@@ -11,7 +16,6 @@ const subcategories = [
   { name: 'Idler Hub & Bearing Kit â€” 7,000 lb. Axles, 8 on 6.5"', href: "/categories/idler-hubs/idler-kit-7000-8x65" },
 ];
 
-export const metadata = { title: 'Idler Hubs' };
 
 export default function IdlerHubsPage() {
   return (
@@ -30,3 +34,5 @@ export default function IdlerHubsPage() {
     </main>
   );
 }
+
+

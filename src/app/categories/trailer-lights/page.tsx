@@ -1,5 +1,10 @@
 ﻿import CategoryCard from "@/components/category-card";
 
+export const metadata = {
+  title: 'Wholesale Trailer Lights — LED & Incandescent, Tail, Marker & Work Lights',
+  description: 'Wholesale trailer lights: LED and incandescent tail lights, marker lights, license plate lights, work lights, and wiring kits. Factory-direct pricing for trailer manufacturers and stockists. Min. order CAD $5,000.',
+};
+
 const subcategories = [
   { name: "LED Tail Lights", description: "Round and oval submersible LED tail lights, DOT compliant.", href: "/categories/trailer-lights/led-tail-lights" },
   { name: "Incandescent Tail Lights", description: "Traditional stop/turn/tail lights for standard trailer applications.", href: "/categories/trailer-lights/incandescent-tail-lights" },
@@ -10,7 +15,6 @@ const subcategories = [
   { name: "Wiring & Connector Kits", description: "4-way, 5-way, and 7-way connector kits with wiring harnesses.", href: "/categories/trailer-lights/wiring-connector-kits" },
 ];
 
-export const metadata = { title: 'Trailer Lights' };
 
 export default function TrailerLightsPage() {
   return (
@@ -31,3 +35,5 @@ export default function TrailerLightsPage() {
     </main>
   );
 }
+
+

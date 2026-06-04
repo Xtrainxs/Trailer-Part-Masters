@@ -63,7 +63,11 @@ const categories = [
   },
 ];
 
-export const metadata = { title: 'Browse by Category' };
+export const metadata = {
+  title: 'Wholesale Trailer Parts by Category — Suspension, Brakes, Lights & More',
+  description:
+    'Browse wholesale trailer parts by category: suspension, brake drums, brake assemblies, idler hubs, lights, jacks, couplers, electrical, hardware, and boat trailer parts. Direct-from-manufacturer pricing for trailer manufacturers and stockists. Min. order CAD $5,000.',
+};
 
 export default function CategoriesPage() {
   return (
@@ -76,8 +80,8 @@ export default function CategoriesPage() {
             Browse by Category
           </h1>
           <p className="mt-4 max-w-2xl text-slate-300 leading-relaxed">
-            Suspension, brakes, lights, jacks, couplers, hardware — every trailer
-            component, sourced direct from the manufacturer.
+            Wholesale suspension, brakes, lights, jacks, couplers, hardware — every
+            trailer component sourced direct from the manufacturer. Minimum order CAD $5,000.
           </p>
         </div>
       </section>

@@ -2,7 +2,10 @@
 import RequestQuoteCTA from '@/components/request-quote-cta';
 import RangeDisclaimer from '@/components/range-disclaimer';
 
-export const metadata = { title: 'Drop-Leg Jacks' };
+export const metadata = {
+  title: 'Drop-Leg Jacks',
+  description: 'Wholesale Drop-Leg Jacks sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Min. order CAD $5,000. Request a quote within 1-2 business days.',
+};
 
 export default function DropLegJacks() {
   return (
@@ -71,3 +74,4 @@ export default function DropLegJacks() {
     </div>
   );
 }
+

@@ -1,5 +1,10 @@
 ﻿import CategoryCard from "@/components/category-card";
 
+export const metadata = {
+  title: 'Wholesale Trailer Jacks — A-Frame, Side-Wind, Drop-Leg, Electric & Stabilizer',
+  description: 'Wholesale trailer jacks: A-frame, side-wind, top-wind, drop-leg, swivel, electric, and stabilizer jacks for all trailer types and weight classes. Factory-direct pricing. Min. order CAD $5,000.',
+};
+
 const subcategories = [
   { name: "A-Frame Jacks", description: "Bolt-on A-frame jacks in 2,000, 3,500, and 5,000 lb capacities.", href: "/categories/trailer-jacks/a-frame-jacks" },
   { name: "Side-Wind Jacks", description: "1 and 2-speed side-wind jacks with or without wheels.", href: "/categories/trailer-jacks/side-wind-jacks" },
@@ -11,7 +16,6 @@ const subcategories = [
   { name: "Jack Accessories", description: "Pads, casters, foot plates, handles, and replacement parts.", href: "/categories/trailer-jacks/jack-accessories" },
 ];
 
-export const metadata = { title: 'Trailer Jacks' };
 
 export default function TrailerJacksPage() {
   return (
@@ -31,3 +35,5 @@ export default function TrailerJacksPage() {
     </main>
   );
 }
+
+

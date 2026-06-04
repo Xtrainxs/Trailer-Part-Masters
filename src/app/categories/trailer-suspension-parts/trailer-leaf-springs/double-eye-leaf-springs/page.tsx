@@ -2,7 +2,10 @@
 import RangeDisclaimer from '@/components/range-disclaimer';
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
-export const metadata = { title: 'Double-Eye Leaf Springs' };
+export const metadata = {
+  title: 'Double-Eye Leaf Springs',
+  description: 'Wholesale Double-Eye Leaf Springs sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Min. order CAD $5,000. Request a quote within 1-2 business days.',
+};
 
 export default function DoubleEyeLeafSpringsPage() {
   return (
@@ -148,3 +151,4 @@ export default function DoubleEyeLeafSpringsPage() {
     </main>
   );
 }
+

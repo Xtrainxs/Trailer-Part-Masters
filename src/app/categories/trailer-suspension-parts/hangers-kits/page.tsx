@@ -7,7 +7,10 @@ const subcategories = [
   { name: "Specialty Hanger Kits", description: "Custom and non-standard hanger configurations.", href: "/categories/trailer-suspension-parts/hangers-kits/specialty-hanger-kits" },
 ];
 
-export const metadata = { title: 'Trailer Hanger Kits' };
+export const metadata = {
+  title: 'Trailer Hanger Kits',
+  description: 'Wholesale Trailer Hanger Kits sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Min. order CAD $5,000. Request a quote within 1-2 business days.',
+};
 
 export default function HangersKitsPage() {
   return (
@@ -26,3 +29,4 @@ export default function HangersKitsPage() {
     </main>
   );
 }
+
