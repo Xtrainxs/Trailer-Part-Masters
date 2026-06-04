@@ -44,6 +44,7 @@ export const metadata = {
   },
   icons: { icon: '/logo.png' },
   robots: { index: true, follow: true },
+  verification: { google: 'Vngq4aZLhX71gDZqulVHg1K43LlSNAj9OzbOruOY5I8' },
 };
 
 const jsonLd = {
