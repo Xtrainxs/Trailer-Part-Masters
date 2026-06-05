@@ -10,7 +10,7 @@ export default function BrakeDrum7in2000_5x45() {
       <img
         src="/images/Brake%20Drums/7%20Inch%20Brake%20Drum%20Kit/Kit.png"
         alt="7 inch brake drum kit for 2,000 lb axles with 5 on 4.5 bolt pattern"
-        className="w-full h-auto mb-8"
+        className="w-full max-w-md h-auto mx-auto mb-8"
       />
       <h2 className="text-xl font-semibold mb-2 mt-8 text-ink">Kit Components</h2>
       <div className="overflow-x-auto">
