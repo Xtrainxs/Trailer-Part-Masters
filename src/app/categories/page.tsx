@@ -1,72 +1,10 @@
-import CategoryCard from "@/components/category-card";
-
-const categories = [
-  {
-    name: "Trailer Suspension Parts",
-    href: "/categories/trailer-suspension-parts",
-    icon: "suspension",
-    description: "Leaf springs, hangers, equalizers, shackles, bushings, and U-bolt kits.",
-  },
-  {
-    name: "Trailer Lights",
-    href: "/categories/trailer-lights",
-    icon: "lights",
-    description: "LED and incandescent tail, marker, license plate, and work lights.",
-  },
-  {
-    name: "Trailer Electrical Parts",
-    href: "/categories/trailer-electrical-parts",
-    icon: "electrical",
-    description: "Adapters, connectors, wiring harnesses, junction and battery boxes.",
-  },
-  {
-    name: "Trailer Jacks",
-    href: "/categories/trailer-jacks",
-    icon: "jacks",
-    description: "A-frame, side-wind, top-wind, swivel, electric, and stabilizer jacks.",
-  },
-  {
-    name: "Trailer Couplers",
-    href: "/categories/trailer-couplers",
-    icon: "couplers",
-    description: "Straight tongue, A-frame, channel, gooseneck, and adjustable couplers.",
-  },
-  {
-    name: "Idler Hubs",
-    href: "/categories/idler-hubs",
-    icon: "hubs",
-    description: "Hub and bearing kits sized to your axle rating and bolt pattern.",
-  },
-  {
-    name: "Brake Drums",
-    href: "/categories/brake-drums",
-    icon: "drums",
-    description: "Drum kits for 2,000 to 7,000 lb. axles in common bolt patterns.",
-  },
-  {
-    name: "Brake Assemblies",
-    href: "/categories/brake-assemblies",
-    icon: "brakes",
-    description: '10" and 12" hydraulic and electric brake assemblies.',
-  },
-  {
-    name: "Trailer Hardware",
-    href: "/categories/trailer-hardware",
-    icon: "hardware",
-    description: "E-tracks, D-rings, hinges, latches, chains, bolts, ramps, wheel chocks, and much more.",
-  },
-  {
-    name: "Boat Trailer Parts",
-    href: "/categories/boat-trailer-parts",
-    icon: "boat",
-    description: "Winches, rollers, jacks, bunks, guides, safety chains, and marine hardware.",
-  },
-];
+import Link from 'next/link';
+import { catalog } from '@/lib/catalog';
 
 export const metadata = {
   title: 'Wholesale Trailer Parts by Category — Suspension, Brakes, Lights & More',
   description:
-    'Browse wholesale trailer parts by category: suspension, brake drums, brake assemblies, idler hubs, lights, jacks, couplers, electrical, hardware, and boat trailer parts. Direct-from-manufacturer pricing for trailer manufacturers and stockists. Min. order CAD $5,000.',
+    'Browse wholesale trailer parts by category: suspension, brake drums, brake assemblies, idler hubs, lights, jacks, couplers, electrical, hardware, and boat trailer parts. Direct-from-manufacturer pricing for trailer manufacturers and stockists.',
 };
 
 export default function CategoriesPage() {
@@ -77,25 +15,59 @@ export default function CategoriesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <span className="eyebrow">The Catalog</span>
           <h1 className="mt-3 font-display uppercase text-4xl sm:text-5xl tracking-tight">
-            Browse by Category
+            Browse the Full Catalog
           </h1>
           <p className="mt-4 max-w-2xl text-slate-300 leading-relaxed">
-            Wholesale suspension, brakes, lights, jacks, couplers, hardware — every
-            trailer component sourced direct from the manufacturer. Minimum order CAD $5,000.
+            Every category and product line on one page — jump straight to what you
+            need. Suspension, brakes, lights, jacks, couplers, hardware, and more,
+            sourced direct from the manufacturer.
           </p>
         </div>
       </section>
 
       <main className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          {categories.map((cat) => (
-            <CategoryCard
-              key={cat.name}
-              name={cat.name}
-              href={cat.href}
-              icon={cat.icon}
-              description={cat.description}
-            />
+          {catalog.map((cat) => (
+            <section
+              key={cat.href}
+              className="flex flex-col bg-white border border-line rounded-sm overflow-hidden hover:border-ink transition-colors"
+            >
+              <Link
+                href={cat.href}
+                className="group flex items-center gap-3 px-5 py-4 bg-ink text-white hover:bg-steel transition-colors"
+              >
+                <span className="text-xl" aria-hidden="true">{cat.icon}</span>
+                <span className="font-display uppercase tracking-wide leading-tight">{cat.name}</span>
+                <span className="ml-auto text-lime group-hover:translate-x-0.5 transition-transform" aria-hidden="true">→</span>
+              </Link>
+
+              <div className="flex-1 p-5">
+                {cat.subcategories.length > 0 ? (
+                  <ul className="space-y-1.5">
+                    {cat.subcategories.map((sub) => (
+                      <li key={sub.href}>
+                        <Link
+                          href={sub.href}
+                          className="flex items-center text-sm text-slate-700 hover:text-lime-dark hover:underline transition leading-snug"
+                        >
+                          <span className="text-lime mr-2" aria-hidden="true">›</span>
+                          {sub.name}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p className="text-sm text-slate-500 leading-relaxed">{cat.blurb}</p>
+                )}
+              </div>
+
+              <Link
+                href={cat.href}
+                className="px-5 py-3 border-t border-line font-display uppercase text-xs tracking-widest text-slate-400 hover:text-lime-dark transition"
+              >
+                View all {cat.name} →
+              </Link>
+            </section>
           ))}
         </div>
 

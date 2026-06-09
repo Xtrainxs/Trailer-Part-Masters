@@ -3,7 +3,7 @@ import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export const metadata = {
   title: 'Triple-Axle Hanger Kits',
-  description: 'Wholesale Triple-Axle Hanger Kits sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Min. order CAD $5,000. Request a quote within 1-2 business days.',
+  description: 'Wholesale Triple-Axle Hanger Kits sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Request a quote within 1-2 business days.',
 };
 
 export default function TripleAxleHangerKitsPage() {
@@ -11,12 +11,12 @@ export default function TripleAxleHangerKitsPage() {
     <main className="max-w-4xl mx-auto py-12 px-6">
       <h1 className="text-2xl font-bold mb-4 text-ink">Triple-Axle Hanger Kits</h1>
       <p className="mb-8 text-ink">Triple-axle hanger kits are built for maximum load capacity and stability, supporting trailers with three axles. These kits include all the necessary components for robust suspension and safe transport of heavy cargo.</p>
-      <div className="w-full flex justify-center items-center bg-blue-900 rounded-lg mb-8 p-4 gap-8">
+      <div className="w-full flex justify-center items-center bg-white border border-line rounded-sm mb-8 p-4 gap-8">
         <div className="flex-1 flex justify-center">
           <img
             src="/images/hangerkits/tripleaxlehangerkits/Picture1.png"
             alt="Triple Axle Hanger Kits Picture 1"
-            className="object-contain rounded-lg drop-shadow-lg"
+            className="object-contain rounded-lg"
             style={{ width: '100%', height: '320px', background: 'transparent' }}
           />
         </div>
@@ -24,7 +24,7 @@ export default function TripleAxleHangerKitsPage() {
           <img
             src="/images/hangerkits/tripleaxlehangerkits/Picture2.png"
             alt="Triple Axle Hanger Kits Picture 2"
-            className="object-contain rounded-lg drop-shadow-lg"
+            className="object-contain rounded-lg"
             style={{ width: '100%', height: '320px', background: 'transparent' }}
           />
         </div>
@@ -32,7 +32,7 @@ export default function TripleAxleHangerKitsPage() {
           <img
             src="/images/hangerkits/tripleaxlehangerkits/Picture3.png"
             alt="Triple Axle Hanger Kits Picture 3"
-            className="object-contain rounded-lg drop-shadow-lg"
+            className="object-contain rounded-lg"
             style={{ width: '100%', height: '320px', background: 'transparent' }}
           />
         </div>

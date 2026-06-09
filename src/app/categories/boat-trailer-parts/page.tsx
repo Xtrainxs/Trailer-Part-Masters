@@ -4,7 +4,7 @@ import path from "path";
 
 export const metadata = {
   title: 'Wholesale Boat Trailer Parts — Winches, Rollers, Jacks & Marine Hardware',
-  description: 'Wholesale boat trailer parts: hand and electric winches, rollers, keel and bow rollers, jacks, guides, bunks, safety chains, and marine hardware. Factory-direct pricing for marine trailer manufacturers. Min. order CAD $5,000.',
+  description: 'Wholesale boat trailer parts: hand and electric winches, rollers, keel and bow rollers, jacks, guides, bunks, safety chains, and marine hardware. Factory-direct pricing for marine trailer manufacturers.',
 };
 
 const imageExtensions = new Set([".png", ".jpg", ".jpeg", ".webp", ".avif", ".gif"]);
@@ -61,7 +61,7 @@ export default async function BoatTrailerPartsPage() {
     <main className="max-w-6xl mx-auto py-12 px-6">
       <h1 className="text-2xl font-bold mb-4 text-ink">Boat Trailer Parts</h1>
       <p className="text-lg text-slate-700 mb-4">
-        We carry all kinds of boat trailer parts and marine trailer accessories â€” pictures below
+        We carry all kinds of boat trailer parts and marine trailer accessories — pictures below
         are for reference only and represent a small sample of what is available.
       </p>
       <RangeDisclaimer

@@ -10,7 +10,7 @@ const subcategories = [
   { name: '12 Inch Manual Adjust Hydraulic Trailer Brake Assembly - Right Side', slug: 'manual-assembly-right' },
 ];
 
-export const metadata = { title: '12\\" Hydraulic Trailer Brakes' };
+export const metadata = { title: '12\" Hydraulic Trailer Brakes' };
 
 export default function Hydraulic12() {
   return (
@@ -55,7 +55,7 @@ export default function Hydraulic12() {
               <td className="py-2 px-4 border-b">Hydraulic Drum</td>
               <td className="py-2 px-4 border-b">Left</td>
               <td className="py-2 px-4 border-b">Manual</td>
-              <td className="py-2 px-4 border-b">5,200â€“7,000 lb</td>
+              <td className="py-2 px-4 border-b">5,200–7,000 lb</td>
               <td className="py-2 px-4 border-b">Black Powder Coat</td>
             </tr>
             <tr>
@@ -63,7 +63,7 @@ export default function Hydraulic12() {
               <td className="py-2 px-4 border-b">Hydraulic Drum</td>
               <td className="py-2 px-4 border-b">Right</td>
               <td className="py-2 px-4 border-b">Manual</td>
-              <td className="py-2 px-4 border-b">5,200â€“7,000 lb</td>
+              <td className="py-2 px-4 border-b">5,200–7,000 lb</td>
               <td className="py-2 px-4 border-b">Black Powder Coat</td>
             </tr>
             <tr>
@@ -71,7 +71,7 @@ export default function Hydraulic12() {
               <td className="py-2 px-4 border-b">Hydraulic Drum (Freebacking)</td>
               <td className="py-2 px-4 border-b">Left</td>
               <td className="py-2 px-4 border-b">Manual</td>
-              <td className="py-2 px-4 border-b">5,200â€“7,000 lb</td>
+              <td className="py-2 px-4 border-b">5,200–7,000 lb</td>
               <td className="py-2 px-4 border-b">Black Powder Coat</td>
             </tr>
             <tr>
@@ -79,7 +79,7 @@ export default function Hydraulic12() {
               <td className="py-2 px-4 border-b">Hydraulic Drum (Freebacking)</td>
               <td className="py-2 px-4 border-b">Right</td>
               <td className="py-2 px-4 border-b">Manual</td>
-              <td className="py-2 px-4 border-b">5,200â€“7,000 lb</td>
+              <td className="py-2 px-4 border-b">5,200–7,000 lb</td>
               <td className="py-2 px-4 border-b">Black Powder Coat</td>
             </tr>
           </tbody>

@@ -98,11 +98,31 @@ export default function Breadcrumbs() {
     href: '/' + segments.slice(0, idx + 1).join('/'),
   }));
 
+  // Structured data for Google rich-result breadcrumbs.
+  const BASE = 'https://trailerpartmasters.vercel.app';
+  const breadcrumbLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: BASE },
+      ...items.map((item, idx) => ({
+        '@type': 'ListItem',
+        position: idx + 2,
+        name: item.label,
+        item: `${BASE}${item.href}`,
+      })),
+    ],
+  };
+
   return (
     <nav
       aria-label="Breadcrumb"
       className="bg-white border-b border-line"
     >
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
       <ol className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center flex-wrap gap-x-2 gap-y-1 text-xs uppercase tracking-wide font-medium text-slate-500">
         <li>
           <Link href="/" className="hover:text-lime-dark transition">

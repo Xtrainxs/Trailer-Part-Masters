@@ -2,7 +2,7 @@
 
 export const metadata = {
   title: 'Wholesale Trailer Brake Assemblies — 10" & 12" Electric & Hydraulic',
-  description: 'Wholesale 10" and 12" electric and hydraulic trailer brake assemblies sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Min. order CAD $5,000.',
+  description: 'Wholesale 10" and 12" electric and hydraulic trailer brake assemblies sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA.',
 };
 
 const subcategories = [

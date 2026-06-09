@@ -4,7 +4,7 @@ import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export const metadata = {
   title: 'Parabolic Leaf Springs',
-  description: 'Wholesale Parabolic Leaf Springs sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Min. order CAD $5,000. Request a quote within 1-2 business days.',
+  description: 'Wholesale Parabolic Leaf Springs sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Request a quote within 1-2 business days.',
 };
 
 export default function ParabolicLeafSpringsPage() {
@@ -14,7 +14,7 @@ export default function ParabolicLeafSpringsPage() {
       <p className="mb-4 text-ink">Engineered for comfort, these springs reduce road shock and vibration, delivering a smoother towing experience.</p>
       <RangeDisclaimer
         intro="Our parabolic leaf springs range includes:"
-        items={["2-Leaf Parabolic","3-Leaf Parabolic","Heavy-Duty (5,200â€“8,000 lb)","Tapered-Leaf design","Galvanized Finish","Painted Finish","Tandem & triple-axle compatible","Custom specs available"]}
+        items={["2-Leaf Parabolic","3-Leaf Parabolic","Heavy-Duty (5,200–8,000 lb)","Tapered-Leaf design","Galvanized Finish","Painted Finish","Tandem & triple-axle compatible","Custom specs available"]}
       />
       <h2 className="text-xl font-semibold mb-2 mt-8 text-ink">Available Parabolic Leaf Springs</h2>
       <div className="flex flex-row gap-6 justify-center items-center mb-8">

@@ -1,7 +1,7 @@
 ﻿import Link from "next/link";
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
-export const metadata = { title: '2 3/8\\" Tube (3.5k) Round U-bolt Kit' };
+export const metadata = { title: '2 3/8\" Tube (3.5k) Round U-bolt Kit' };
 
 export default function RoundUBoltKit2_3_8Tube3_5k() {
   return (

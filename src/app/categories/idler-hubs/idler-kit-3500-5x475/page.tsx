@@ -1,7 +1,7 @@
 ﻿import Link from 'next/link';
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
-export const metadata = { title: 'Trailer Idler Hub & Bearing Kit for 3,500 lb. Axles | 5 on 4.75\\" Bolt Pattern' };
+export const metadata = { title: 'Trailer Idler Hub & Bearing Kit for 3,500 lb. Axles | 5 on 4.75\" Bolt Pattern' };
 
 export default function IdlerKit3500_5x475() {
   return (

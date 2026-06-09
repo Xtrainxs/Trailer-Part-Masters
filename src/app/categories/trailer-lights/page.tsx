@@ -2,7 +2,7 @@
 
 export const metadata = {
   title: 'Wholesale Trailer Lights — LED & Incandescent, Tail, Marker & Work Lights',
-  description: 'Wholesale trailer lights: LED and incandescent tail lights, marker lights, license plate lights, work lights, and wiring kits. Factory-direct pricing for trailer manufacturers and stockists. Min. order CAD $5,000.',
+  description: 'Wholesale trailer lights: LED and incandescent tail lights, marker lights, license plate lights, work lights, and wiring kits. Factory-direct pricing for trailer manufacturers and stockists.',
 };
 
 const subcategories = [

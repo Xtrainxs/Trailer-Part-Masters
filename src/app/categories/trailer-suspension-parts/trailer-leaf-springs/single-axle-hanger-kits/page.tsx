@@ -3,7 +3,7 @@ import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export const metadata = {
   title: 'Single-Axle Hanger Kits',
-  description: 'Wholesale Single-Axle Hanger Kits sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Min. order CAD $5,000. Request a quote within 1-2 business days.',
+  description: 'Wholesale Single-Axle Hanger Kits sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Request a quote within 1-2 business days.',
 };
 
 export default function SingleAxleHangerKitsPage() {
@@ -14,29 +14,26 @@ export default function SingleAxleHangerKitsPage() {
         Complete hanger kit options for single-axle setups, including double-eye and slipper configurations.
       </p>
 
-      <div className="w-full flex justify-center items-center bg-blue-900 rounded-lg mb-8 p-4 gap-8">
-        <div className="flex-1 flex justify-center">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
+        <div className="bg-white border border-line rounded-sm p-4 flex justify-center">
           <img
-            src="/images/hangerkits/singleaxlehangerkits/Picture1.png"
-            alt="Single-Axle Hanger Kits Picture 1"
-            className="object-contain rounded-lg drop-shadow-lg"
-            style={{ width: "100%", height: "320px", background: "transparent" }}
+            src="/images/hangerkits/singleaxlehangerkits/1.png"
+            alt="Single-axle hanger kit"
+            className="object-contain h-48 w-auto"
           />
         </div>
-        <div className="flex-1 flex justify-center">
+        <div className="bg-white border border-line rounded-sm p-4 flex justify-center">
           <img
-            src="/images/hangerkits/singleaxlehangerkits/Picture2.png"
-            alt="Single-Axle Hanger Kits Picture 2"
-            className="object-contain rounded-lg drop-shadow-lg"
-            style={{ width: "100%", height: "320px", background: "transparent" }}
+            src="/images/hangerkits/tandemaxlehangerkits/Picture1.png"
+            alt="Single-axle hanger kit components"
+            className="object-contain h-48 w-auto"
           />
         </div>
-        <div className="flex-1 flex justify-center">
+        <div className="bg-white border border-line rounded-sm p-4 flex justify-center">
           <img
-            src="/images/hangerkits/singleaxlehangerkits/Picture3.png"
-            alt="Single-Axle Hanger Kits Picture 3"
-            className="object-contain rounded-lg drop-shadow-lg"
-            style={{ width: "100%", height: "320px", background: "transparent" }}
+            src="/images/hangerkits/tripleaxlehangerkits/Picture3.png"
+            alt="Single-axle hanger kit hardware"
+            className="object-contain h-48 w-auto"
           />
         </div>
       </div>
@@ -46,7 +43,7 @@ export default function SingleAxleHangerKitsPage() {
         <table className="min-w-full bg-white border border-slate-200 rounded-lg mb-8">
           <thead>
             <tr className="bg-slate-100">
-              <th className="py-2 px-4 border-b text-left">TPM Part Number</th>
+              <th className="py-2 px-4 border-b text-left">Part Number</th>
               <th className="py-2 px-4 border-b text-left">Kit Type</th>
               <th className="py-2 px-4 border-b text-left">Contents/Specs</th>
             </tr>

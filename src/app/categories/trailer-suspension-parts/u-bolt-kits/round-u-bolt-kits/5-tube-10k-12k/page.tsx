@@ -1,13 +1,13 @@
 ﻿import Link from "next/link";
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
-export const metadata = { title: '5\\" Tube (10kâ€“12k) Round U-bolt Kit' };
+export const metadata = { title: '5\" Tube (10k–12k) Round U-bolt Kit' };
 
 export default function RoundUBoltKit5Tube10k12k() {
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">
-      <h1 className="text-2xl font-bold mb-4 text-ink">5" Tube (10kâ€“12k) Round U-bolt Kit</h1>
-      <p className="text-lg text-gray-700 mb-6">Kit for 10,000â€“12,000 lb axles with 5" round tube. Includes U-bolts, nuts, and tie plates.</p>
+      <h1 className="text-2xl font-bold mb-4 text-ink">5" Tube (10k–12k) Round U-bolt Kit</h1>
+      <p className="text-lg text-gray-700 mb-6">Kit for 10,000–12,000 lb axles with 5" round tube. Includes U-bolts, nuts, and tie plates.</p>
       <div className="flex flex-wrap gap-4 mb-8">
         {[
           "10k-12k Round U-Bolt Kits - 1.png",
@@ -50,7 +50,7 @@ export default function RoundUBoltKit5Tube10k12k() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel={"5\" Tube (10kâ€“12k) Round U-bolt Kit"} />
+      <RequestQuoteCTA partLabel={"5\" Tube (10k–12k) Round U-bolt Kit"} />
     </main>
   );
 }

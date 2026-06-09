@@ -2,7 +2,7 @@
 
 export const metadata = {
   title: 'Wholesale Trailer Couplers — A-Frame, Gooseneck, Channel & Adjustable',
-  description: 'Wholesale trailer couplers: straight tongue, A-frame, channel style, gooseneck, and adjustable. Factory-direct pricing for trailer manufacturers and stockists in Canada and the USA. Min. order CAD $5,000.',
+  description: 'Wholesale trailer couplers: straight tongue, A-frame, channel style, gooseneck, and adjustable. Factory-direct pricing for trailer manufacturers and stockists in Canada and the USA.',
 };
 
 const subcategories = [

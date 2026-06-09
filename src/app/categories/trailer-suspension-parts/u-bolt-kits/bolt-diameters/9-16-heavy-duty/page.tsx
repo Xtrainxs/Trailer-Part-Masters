@@ -1,6 +1,6 @@
 ﻿import RequestQuoteCTA from '@/components/request-quote-cta';
 
-export const metadata = { title: '9/16\\" (Heavy Duty) Bolt Diameter' };
+export const metadata = { title: '9/16\" (Heavy Duty) Bolt Diameter' };
 
 export default function Bolt916Page() {
   return (

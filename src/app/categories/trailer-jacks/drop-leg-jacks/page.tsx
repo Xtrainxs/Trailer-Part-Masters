@@ -4,7 +4,7 @@ import RangeDisclaimer from '@/components/range-disclaimer';
 
 export const metadata = {
   title: 'Drop-Leg Jacks',
-  description: 'Wholesale Drop-Leg Jacks sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Min. order CAD $5,000. Request a quote within 1-2 business days.',
+  description: 'Wholesale Drop-Leg Jacks sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Request a quote within 1-2 business days.',
 };
 
 export default function DropLegJacks() {
@@ -16,7 +16,7 @@ export default function DropLegJacks() {
       </p>
       <RangeDisclaimer
         intro="Our drop-leg jacks range includes:"
-        items={["7,000 lb capacity","10,000 lb capacity","12,000 lb capacity","Manual Crank","Speed Handle","2-Speed Gear","Adjustable Drop-Leg (6\"â€“18\")","Swivel Foot Plate","Fixed Foot Plate","Bolt-On mounting","Zinc-Plated","Black Powder Coat"]}
+        items={["7,000 lb capacity","10,000 lb capacity","12,000 lb capacity","Manual Crank","Speed Handle","2-Speed Gear","Adjustable Drop-Leg (6\"–18\")","Swivel Foot Plate","Fixed Foot Plate","Bolt-On mounting","Zinc-Plated","Black Powder Coat"]}
       />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 mb-8">
         {["1.png", "2.png", "3.png"].map((img, idx) => (

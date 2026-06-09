@@ -3,15 +3,15 @@
 const subcategories = [
   { name: '1 Â¾" tube (2k)', description: 'For 2,000 lb axles with 1Â¾\" round tube.', href: "/categories/trailer-suspension-parts/u-bolt-kits/round-u-bolt-kits/1-3-4-tube-2k" },
   { name: '2 3/8" tube (3.5k)', description: 'For 3,500 lb axles with 2 3/8\" round tube.', href: "/categories/trailer-suspension-parts/u-bolt-kits/round-u-bolt-kits/2-3-8-tube-3-5k" },
-  { name: '3" tube (5.2kâ€“7k)', description: 'For 5,200â€“7,000 lb axles with 3\" round tube.', href: "/categories/trailer-suspension-parts/u-bolt-kits/round-u-bolt-kits/3-tube-5-2k-7k" },
+  { name: '3" tube (5.2k–7k)', description: 'For 5,200–7,000 lb axles with 3\" round tube.', href: "/categories/trailer-suspension-parts/u-bolt-kits/round-u-bolt-kits/3-tube-5-2k-7k" },
   { name: '3.5" tube (8k)', description: 'For 8,000 lb axles with 3.5\" round tube.', href: "/categories/trailer-suspension-parts/u-bolt-kits/round-u-bolt-kits/3-5-tube-8k" },
   { name: '4" tube (9k)', description: 'For 9,000 lb axles with 4\" round tube.', href: "/categories/trailer-suspension-parts/u-bolt-kits/round-u-bolt-kits/4-tube-9k" },
-  { name: '5" tube (10kâ€“12k)', description: 'For 10,000â€“12,000 lb axles with 5\" round tube.', href: "/categories/trailer-suspension-parts/u-bolt-kits/round-u-bolt-kits/5-tube-10k-12k" },
+  { name: '5" tube (10k–12k)', description: 'For 10,000–12,000 lb axles with 5\" round tube.', href: "/categories/trailer-suspension-parts/u-bolt-kits/round-u-bolt-kits/5-tube-10k-12k" },
 ];
 
 export const metadata = {
   title: 'Round U-Bolt Kits',
-  description: 'Wholesale Round U-Bolt Kits sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Min. order CAD $5,000. Request a quote within 1-2 business days.',
+  description: 'Wholesale Round U-Bolt Kits sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Request a quote within 1-2 business days.',
 };
 
 export default function RoundUBoltKitsPage() {

@@ -1,6 +1,10 @@
 import CategoryCard from '@/components/category-card';
 import CategoryIcon from '@/components/category-icon';
 
+export const metadata = {
+  alternates: { canonical: '/' },
+};
+
 const featured = [
   { name: 'Suspension Parts', href: '/categories/trailer-suspension-parts', icon: 'suspension', description: 'Leaf springs, hangers, equalizers, shackles, bushings, U-bolt kits.' },
   { name: 'Brake Assemblies', href: '/categories/brake-assemblies', icon: 'brakes', description: '10" and 12" hydraulic and electric brake assemblies.' },
@@ -51,7 +55,7 @@ export default function Home() {
               </a>
             </div>
             <p className="mt-4 text-sm text-slate-400">
-              Minimum order CAD $5,000 &middot; Quote within 1&ndash;2 business days
+              Quote within 1&ndash;2 business days
             </p>
           </div>
         </div>
@@ -75,7 +79,7 @@ export default function Home() {
             { stat: '25+', label: 'Years importing expertise' },
             { stat: '10', label: 'Major part categories' },
             { stat: '3', label: 'Countries served' },
-            { stat: 'CAD $5K', label: 'Minimum order' },
+            { stat: '1–2', label: 'Day quote turnaround' },
           ].map((s) => (
             <div key={s.label} className="py-8 px-4 text-center">
               <p className="font-display text-4xl sm:text-5xl text-ink">

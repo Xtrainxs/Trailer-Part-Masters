@@ -1,6 +1,6 @@
 ﻿import RequestQuoteCTA from '@/components/request-quote-cta';
 
-export const metadata = { title: '2\\" Square U-bolt Kit' };
+export const metadata = { title: '2\" Square U-bolt Kit' };
 
 export default function Square2Page() {
   return (

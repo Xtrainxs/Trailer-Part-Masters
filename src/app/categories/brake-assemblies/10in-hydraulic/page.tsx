@@ -10,7 +10,7 @@ const subcategories = [
   { name: '10 Inch Manual Adjust Hydraulic Trailer Brake Assembly - Right Side', slug: 'manual-assembly-right' },
 ];
 
-export const metadata = { title: '10\\" Hydraulic Trailer Brakes' };
+export const metadata = { title: '10\" Hydraulic Trailer Brakes' };
 
 export default function Hydraulic10() {
   return (

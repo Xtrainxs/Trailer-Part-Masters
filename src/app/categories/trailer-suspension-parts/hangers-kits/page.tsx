@@ -1,15 +1,15 @@
 ﻿import CategoryCard from "@/components/category-card";
 
 const subcategories = [
-  { name: "Single-Axle Hanger Kits (2,000â€“7,000 lbs)", description: "Complete hardware kits for single-axle trailers.", href: "/categories/trailer-suspension-parts/hangers-kits/single-axle-hanger-kits" },
-  { name: "Tandem-Axle Hanger Kits (3,500â€“12,000 lbs)", description: "Front, center, and rear hanger sets for tandem axles.", href: "/categories/trailer-suspension-parts/hangers-kits/tandem-axle-hanger-kits" },
-  { name: "Triple-Axle Hanger Kits (7,000â€“12,000 lbs)", description: "Full hanger sets for triple-axle heavy-duty trailers.", href: "/categories/trailer-suspension-parts/hangers-kits/triple-axle-hanger-kits" },
+  { name: "Single-Axle Hanger Kits (2,000–7,000 lbs)", description: "Complete hardware kits for single-axle trailers.", href: "/categories/trailer-suspension-parts/hangers-kits/single-axle-hanger-kits" },
+  { name: "Tandem-Axle Hanger Kits (3,500–12,000 lbs)", description: "Front, center, and rear hanger sets for tandem axles.", href: "/categories/trailer-suspension-parts/hangers-kits/tandem-axle-hanger-kits" },
+  { name: "Triple-Axle Hanger Kits (7,000–12,000 lbs)", description: "Full hanger sets for triple-axle heavy-duty trailers.", href: "/categories/trailer-suspension-parts/hangers-kits/triple-axle-hanger-kits" },
   { name: "Specialty Hanger Kits", description: "Custom and non-standard hanger configurations.", href: "/categories/trailer-suspension-parts/hangers-kits/specialty-hanger-kits" },
 ];
 
 export const metadata = {
   title: 'Trailer Hanger Kits',
-  description: 'Wholesale Trailer Hanger Kits sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Min. order CAD $5,000. Request a quote within 1-2 business days.',
+  description: 'Wholesale Trailer Hanger Kits sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Request a quote within 1-2 business days.',
 };
 
 export default function HangersKitsPage() {

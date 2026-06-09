@@ -4,7 +4,7 @@ import RangeDisclaimer from '@/components/range-disclaimer';
 
 export const metadata = {
   title: 'Slipper Leaf Springs',
-  description: 'Wholesale Slipper Leaf Springs sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Min. order CAD $5,000. Request a quote within 1-2 business days.',
+  description: 'Wholesale Slipper Leaf Springs sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Request a quote within 1-2 business days.',
 };
 
 export default function SlipperLeafSpringsPage() {
@@ -14,7 +14,7 @@ export default function SlipperLeafSpringsPage() {
       <p className="mb-4 text-ink">Designed for heavy loads, these springs offer durability and effective shock absorption for commercial and agricultural trailers.</p>
       <RangeDisclaimer
         intro="Our slipper leaf springs range includes:"
-        items={["Single-Eye Slipper","Hook-End Slipper","Radius-End Slipper","Light-Duty (1,000 lb)","Standard (2,500 lb)","Heavy-Duty (4,000 lb)","Extra Heavy-Duty (8,000â€“12,000 lb)","Galvanized Finish","Black Powder Coat","Custom lengths on request"]}
+        items={["Single-Eye Slipper","Hook-End Slipper","Radius-End Slipper","Light-Duty (1,000 lb)","Standard (2,500 lb)","Heavy-Duty (4,000 lb)","Extra Heavy-Duty (8,000–12,000 lb)","Galvanized Finish","Black Powder Coat","Custom lengths on request"]}
       />
       <h2 className="text-xl font-semibold mb-2 mt-8 text-ink">Available Slipper Leaf Springs</h2>
       <div className="flex flex-row gap-6 justify-center items-center mb-8">

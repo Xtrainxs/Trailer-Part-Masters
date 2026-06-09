@@ -2,7 +2,7 @@
 
 export const metadata = {
   title: 'Wholesale Trailer Electrical Parts — Connectors, Harnesses & Breakaway Kits',
-  description: 'Wholesale trailer electrical parts: connectors, adapters, wiring harnesses, junction boxes, breakaway kits, and battery boxes. Direct-from-manufacturer pricing for trailer builders and distributors. Min. order CAD $5,000.',
+  description: 'Wholesale trailer electrical parts: connectors, adapters, wiring harnesses, junction boxes, breakaway kits, and battery boxes. Direct-from-manufacturer pricing for trailer builders and distributors.',
 };
 
 const subcategories = [

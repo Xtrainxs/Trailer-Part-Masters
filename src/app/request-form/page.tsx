@@ -48,8 +48,8 @@ export default function RequestFormPage({ searchParams }: PageProps) {
           <p className="text-slate-300">Importing direct from manufacturers</p>
         </div>
         <div>
-          <p className="font-display uppercase font-bold text-base text-lime">Min. Order CAD $5,000</p>
-          <p className="text-slate-300">Factory-direct pricing at scale</p>
+          <p className="font-display uppercase font-bold text-base text-lime">1&ndash;2 Days</p>
+          <p className="text-slate-300">Quote turnaround</p>
         </div>
         <div>
           <p className="font-display uppercase font-bold text-base text-lime">Canada &amp; USA</p>
@@ -73,7 +73,7 @@ export default function RequestFormPage({ searchParams }: PageProps) {
         <div>
           <p className="text-xs font-semibold uppercase tracking-wider text-lime-dark mb-1">Address</p>
           <p className="text-ink font-medium leading-snug">
-            Taralake Manor NE<br />Calgary, AB, Canada
+            Trailer Part Masters<br />Calgary, Alberta, CANADA
           </p>
         </div>
       </div>
@@ -132,7 +132,6 @@ export default function RequestFormPage({ searchParams }: PageProps) {
         <div>
           <label htmlFor="quantity" className={labelClass}>Estimated Quantity</label>
           <input id="quantity" name="quantity" type="number" min="1" placeholder="e.g. 50" className={inputClass} />
-          <p className="text-xs text-slate-500 mt-1">Minimum order value: CAD $5,000.</p>
         </div>
         <div className="sm:col-span-2">
           <label htmlFor="details" className={labelClass}>Part Details / Description</label>

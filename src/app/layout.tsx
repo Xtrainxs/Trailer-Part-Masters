@@ -1,6 +1,7 @@
 import './globals.css';
 import { ReactNode } from 'react';
 import Breadcrumbs from '@/components/breadcrumbs';
+import CatalogNav from '@/components/catalog-nav';
 
 export const metadata = {
   metadataBase: new URL('https://trailerpartmasters.vercel.app'),
@@ -9,7 +10,7 @@ export const metadata = {
     template: '%s | Trailer Part Masters',
   },
   description:
-    'Wholesale trailer parts sourced direct from manufacturers in Asia — no distributor markup. Suspension, brakes, lights, hubs, couplers, jacks and hardware. Serving trailer manufacturers and stockists across Canada and the USA since 2001. Minimum order CAD $5,000.',
+    'Wholesale trailer parts sourced direct from manufacturers in Asia — no distributor markup. Suspension, brakes, lights, hubs, couplers, jacks and hardware. Serving trailer manufacturers and stockists across Canada and the USA since 2001.',
   keywords: [
     'wholesale trailer parts',
     'bulk trailer parts Canada',
@@ -42,7 +43,6 @@ export const metadata = {
     description: 'Wholesale trailer components direct from manufacturers. No distributor markup. Canada and USA.',
     images: ['/logo.png'],
   },
-  icons: { icon: '/logo.png' },
   robots: { index: true, follow: true },
   verification: { google: 'Vngq4aZLhX71gDZqulVHg1K43LlSNAj9OzbOruOY5I8' },
 };
@@ -59,10 +59,8 @@ const jsonLd = {
     'Wholesale trailer parts sourced direct from manufacturers in Asia. Serving trailer manufacturers, wholesalers, and stockists across Canada and the USA since 2001.',
   address: {
     '@type': 'PostalAddress',
-    streetAddress: 'Taralake Manor NE',
     addressLocality: 'Calgary',
     addressRegion: 'AB',
-    postalCode: 'T3J 0N1',
     addressCountry: 'CA',
   },
   contactPoint: {
@@ -133,6 +131,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
               </a>
 
               <nav className="hidden lg:flex items-center gap-1">
+                <CatalogNav />
                 {NAV.map((item) => (
                   <a
                     key={item.href}
@@ -150,7 +149,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             </div>
 
             {/* Mobile / tablet nav row */}
-            <nav className="lg:hidden flex flex-wrap gap-x-4 gap-y-1 pb-3 -mt-1">
+            <nav className="lg:hidden flex flex-wrap items-center gap-x-4 gap-y-1 pb-3 -mt-1">
+              <CatalogNav />
               {NAV.map((item) => (
                 <a
                   key={item.href}
@@ -229,7 +229,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                   </div>
                   <div>
                     <span className="block text-xs uppercase tracking-wider text-slate-500">Address</span>
-                    <span>Taralake Manor NE<br />Calgary, Alberta, Canada T3J 0N1</span>
+                    <span>Trailer Part Masters<br />Calgary, Alberta, CANADA</span>
                   </div>
                 </address>
               </div>

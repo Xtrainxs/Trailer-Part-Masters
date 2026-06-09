@@ -2,7 +2,7 @@
 
 export const metadata = {
   title: 'Wholesale Trailer Jacks — A-Frame, Side-Wind, Drop-Leg, Electric & Stabilizer',
-  description: 'Wholesale trailer jacks: A-frame, side-wind, top-wind, drop-leg, swivel, electric, and stabilizer jacks for all trailer types and weight classes. Factory-direct pricing. Min. order CAD $5,000.',
+  description: 'Wholesale trailer jacks: A-frame, side-wind, top-wind, drop-leg, swivel, electric, and stabilizer jacks for all trailer types and weight classes. Factory-direct pricing.',
 };
 
 const subcategories = [

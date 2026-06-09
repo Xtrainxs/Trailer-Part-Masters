@@ -2,13 +2,13 @@
 
 const subcategories = [
   { name: "Round U-Bolt Kits", description: "Kits sized to round axle tube diameter from 1Â¾\" to 5\".", href: "/categories/trailer-suspension-parts/u-bolt-kits/round-u-bolt-kits" },
-  { name: "Square U-Bolt Kits", description: "Kits for square axle profiles from 1Â¾\" to 2Â½\"â€“3\".", href: "/categories/trailer-suspension-parts/u-bolt-kits/square-u-bolt-kits" },
+  { name: "Square U-Bolt Kits", description: "Kits for square axle profiles from 1Â¾\" to 2Â½\"–3\".", href: "/categories/trailer-suspension-parts/u-bolt-kits/square-u-bolt-kits" },
   { name: "Bolt Diameters", description: "U-bolt kits indexed by diameter from 3/8\" light-duty to 5/8\" XHD.", href: "/categories/trailer-suspension-parts/u-bolt-kits/bolt-diameters" },
 ];
 
 export const metadata = {
   title: 'U-Bolt Kits',
-  description: 'Wholesale U-Bolt Kits sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Min. order CAD $5,000. Request a quote within 1-2 business days.',
+  description: 'Wholesale U-Bolt Kits sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Request a quote within 1-2 business days.',
 };
 
 export default function UBoltKitsPage() {

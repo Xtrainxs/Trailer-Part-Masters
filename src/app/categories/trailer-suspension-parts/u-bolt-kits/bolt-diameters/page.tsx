@@ -2,14 +2,14 @@
 
 const subcategories = [
   { name: '3/8" (light duty)', description: 'Light-duty 3/8\" U-bolts for small utility trailers.', href: "/categories/trailer-suspension-parts/u-bolt-kits/bolt-diameters/3-8-light-duty" },
-  { name: '1/2" (standard)', description: 'Standard 1/2\" U-bolts â€” the most common suspension fastener.', href: "/categories/trailer-suspension-parts/u-bolt-kits/bolt-diameters/1-2-standard" },
-  { name: '9/16" (heavy duty)', description: 'Heavy-duty 9/16\" U-bolts for 5,200â€“8,000 lb axles.', href: "/categories/trailer-suspension-parts/u-bolt-kits/bolt-diameters/9-16-heavy-duty" },
+  { name: '1/2" (standard)', description: 'Standard 1/2\" U-bolts — the most common suspension fastener.', href: "/categories/trailer-suspension-parts/u-bolt-kits/bolt-diameters/1-2-standard" },
+  { name: '9/16" (heavy duty)', description: 'Heavy-duty 9/16\" U-bolts for 5,200–8,000 lb axles.', href: "/categories/trailer-suspension-parts/u-bolt-kits/bolt-diameters/9-16-heavy-duty" },
   { name: '5/8" (extra heavy duty)', description: 'Extra heavy-duty 5/8\" U-bolts for 10,000 lb+ applications.', href: "/categories/trailer-suspension-parts/u-bolt-kits/bolt-diameters/5-8-extra-heavy-duty" },
 ];
 
 export const metadata = {
   title: 'Bolt Diameters',
-  description: 'Wholesale Bolt Diameters sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Min. order CAD $5,000. Request a quote within 1-2 business days.',
+  description: 'Wholesale Bolt Diameters sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Request a quote within 1-2 business days.',
 };
 
 export default function BoltDiametersPage() {
